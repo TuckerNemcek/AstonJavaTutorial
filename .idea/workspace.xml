@@ -2,73 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3475e155-34db-4cc0-8daa-2e3b6219760c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/project-template.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bo/bo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bo/src/com/astontech/bo/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bo/src/com/astontech/bo/BaseBo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bo/src/com/astontech/bo/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bo/src/com/astontech/bo/ClientContact.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bo/src/com/astontech/bo/Email.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bo/src/com/astontech/bo/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bo/src/com/astontech/bo/EmployeeProject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bo/src/com/astontech/bo/Entity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bo/src/com/astontech/bo/EntityType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bo/src/com/astontech/bo/LoyaltyAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bo/src/com/astontech/bo/LoyaltyCompany.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bo/src/com/astontech/bo/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bo/src/com/astontech/bo/Phone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bo/src/com/astontech/bo/Project.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bo/src/com/astontech/bo/ProjectStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bo/src/com/astontech/bo/Review.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bo/src/com/astontech/bo/ReviewData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bo/src/com/astontech/bo/Training.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bo/src/com/astontech/bo/TrainingData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bo/src/com/astontech/bo/Vehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bo/src/com/astontech/bo/VehicleMake.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bo/src/com/astontech/bo/VehicleModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bo/src/com/astontech/bo/VehicleStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com.astontech.oop.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/console/console.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/console/src/com/astontech/console/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exportToHTML/com/astontech/bo/Address.java.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exportToHTML/com/astontech/bo/Email.java.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exportToHTML/com/astontech/bo/Phone.java.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exportToHTML/com/astontech/bo/ProjectStatus.java.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exportToHTML/com/astontech/bo/VehicleMake.java.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exportToHTML/com/astontech/console/Main.java.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/bo/META-INF/bo.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/bo/com/astontech/bo/Address.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/bo/com/astontech/bo/BaseBo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/bo/com/astontech/bo/Client.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/bo/com/astontech/bo/ClientContact.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/bo/com/astontech/bo/Email.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/bo/com/astontech/bo/Employee.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/bo/com/astontech/bo/EmployeeProject.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/bo/com/astontech/bo/Entity.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/bo/com/astontech/bo/EntityType.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/bo/com/astontech/bo/LoyaltyAccount.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/bo/com/astontech/bo/LoyaltyCompany.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/bo/com/astontech/bo/Person.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/bo/com/astontech/bo/Phone.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/bo/com/astontech/bo/Project.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/bo/com/astontech/bo/ProjectStatus.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/bo/com/astontech/bo/Review.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/bo/com/astontech/bo/ReviewData.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/bo/com/astontech/bo/Training.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/bo/com/astontech/bo/TrainingData.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/bo/com/astontech/bo/Vehicle.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/bo/com/astontech/bo/VehicleMake.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/bo/com/astontech/bo/VehicleModel.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/bo/com/astontech/bo/VehicleStatus.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/com.astontech.oop/com/astontech/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/console/com/astontech/console/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -109,6 +44,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/bo/src/com/astontech/bo" />
@@ -170,7 +106,7 @@
       <updated>1572287683359</updated>
       <workItem from="1572287698903" duration="23217000" />
       <workItem from="1572377849256" duration="28098000" />
-      <workItem from="1572536912985" duration="73109000" />
+      <workItem from="1572536912985" duration="73398000" />
     </task>
     <servers />
   </component>
