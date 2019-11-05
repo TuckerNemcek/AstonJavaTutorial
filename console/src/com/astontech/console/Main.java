@@ -1,19 +1,101 @@
 package com.astontech.console;
 
 import com.astontech.bo.*;
+import org.w3c.dom.ls.LSOutput;
 
-import java.util.ArrayList;
-import java.util.Date;
-import java.util.List;
-import java.util.Scanner;
+import java.util.*;
 
 
 public class Main {
 
     public static void main(String[] args) {
 
-        LessonCollectionsLAB();
+        OOPPrincipalsLab04();
+
+        //test comment second one
     }
+    public static void OOPPrincipalsLab04(){
+        // region 1
+/*        Instance is one example of many. I am an instance of a person. You would not want to make an instance of something
+          you are going to be making a lot of. Static is something you are going to make a lot of. It is less cumbersome to
+          reference and does not require you to instantiate it for it to work. As you can see in the last lab, Vehicle is a
+          static class because it makes vehicles. battleBuick is an instance because there is only one battleBuick and it was
+          instantiated first.
+
+ */
+        // endregion
+
+        //region 2
+        /*
+        A value is one of the primitive data types and is real data. A reference is a reference to an Object, or a collection of real data. A reference is simply a pointer.
+
+         */
+         int firstNum = 5;
+         int myNum = firstNum;
+        System.out.println(myNum);
+         firstNum = 100;
+        System.out.println(myNum);
+
+        String firstString = "Hey";
+        String myString = "Heya";
+        System.out.println(firstString);
+        firstString = myString;
+        System.out.println(firstString);
+
+        //endregion
+
+        //region 3
+        Hashtable<Integer, String> hashTableExample = new Hashtable<>();
+            hashTableExample.put(1,"and the Prisoner of ISIS");
+            hashTableExample.put(3,"II: Electric Boogaloo");
+            hashTableExample.put(4,"Revengence");
+            hashTableExample.put(5,"VS Rick and Morty");
+            hashTableExample.put(6,"Reloaded");
+            hashTableExample.put(7,"and the Eternal Brexit");
+
+        System.out.println("Unfortunately the new Harry Potter reboot failed spectacularly, probably because it was titled");
+        System.out.println();
+
+        for(Integer key : hashTableExample.keySet()){
+            System.out.println("Harry Potter "+ hashTableExample.get(key));
+        }
+
+        System.out.println();
+
+        HashMap<Integer, String> hashMap = new HashMap<>();
+        hashMap.put(1, "I work too hard, I care too much, and sometimes I can be too invested in my job.");
+        hashMap.put(2, "I am often a target of sexual harassment by female coworkers owning to my Magnum Dong");
+        hashMap.put(3, "I try to insert something about my large collection of Anime Body pillows into every conversation");
+        hashMap.put(4, "What the fuck did you just fucking say about me, you little bitch? I'll have you know I graduated top of my class in the Navy Seals, and I've been involved in numerous secret raids on Al-Quaeda, and I have over 300 confirmed kills. I am trained in gorilla warfare and I'm the top sniper in the entire US armed forces. You are nothing to me but just another target. I will wipe you the fuck out with precision the likes of which has never been seen before on this Earth, mark my fucking words. You think you can get away with saying that shit to me over the Internet? Think again, fucker. As we speak I am contacting my secret network of spies across the USA and your IP is being traced right now so you better prepare for the storm, maggot. The storm that wipes out the pathetic little thing you call your life. You're fucking dead, kid. I can be anywhere, anytime, and I can kill you in over seven hundred ways, and that's just with my bare hands. Not only am I extensively trained in unarmed combat, but I have access to the entire arsenal of the United States Marine Corps and I will use it to its full extent to wipe your miserable ass off the face of the continent, you little shit. If only you could have known what unholy retribution your little \"clever\" comment was about to bring down upon you, maybe you would have held your fucking tongue. But you couldn't, you didn't, and now you're paying the price, you goddamn idiot. I will shit fury all over you and you will drown in it. You're fucking dead, kiddo.");
+
+        System.out.println("By far the best response to the interview question \"What is your greatest weakness\" is ");
+        System.out.println();
+
+        for(Integer key : hashMap.keySet()){
+            System.out.println(hashMap.get(key));
+        }
+
+        System.out.println();
+
+        HashSet<String> hashSet = new HashSet<>();
+            hashSet.add("funny thing 1");
+            hashSet.add("funny thing 2");
+            hashSet.add("funny thing 3");
+
+        System.out.println("Funny machine broke");
+        System.out.println();
+
+        for(String s : hashSet){
+            System.out.println(s);
+
+        }
+
+
+        //endregion
+    }
+
+
+
 
     public static void LessonCollectionsLAB(){
         List<Vehicle> vehicleList = new ArrayList<>();
@@ -50,7 +132,7 @@ public class Main {
         Vehicle theTesla = new Vehicle(2, "2015", "542-BBQ", "0987654321QW12345", "Silver", 'n', 50000, "Nov 29th, 2025", s);
         Vehicle theBMW = new Vehicle(3, "2019","I<3 NW Yk", "102878203982030EV9", "Gold", 'n', 100000, "Nov 29th 2010", x6);
         Vehicle battleBuick = new Vehicle(4, "1995", "243-BPN", "203287p739803RT9", "Champaigne", 'y', 0, "Oct 3rd 2016", regal );
-
+        //git branch test
         vehicleList.add(battleBuick);
         vehicleList.add(myJeep);
         vehicleList.add(theTesla);
@@ -61,7 +143,6 @@ public class Main {
         }
 
     }
-
     public static void LessonComplexProperties(){
         EntityType emailWorkType = new EntityType();
         emailWorkType.setEntityTypeId(1);
