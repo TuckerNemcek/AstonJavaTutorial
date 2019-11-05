@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="3475e155-34db-4cc0-8daa-2e3b6219760c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/console/src/com/astontech/console/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/console/src/com/astontech/console/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/console/com/astontech/console/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/console/com/astontech/console/Main.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,7 +35,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Lab03" />
+        <entry key="$PROJECT_DIR$" value="TestBranch" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -110,7 +112,7 @@
       <updated>1572287683359</updated>
       <workItem from="1572287698903" duration="23217000" />
       <workItem from="1572377849256" duration="28098000" />
-      <workItem from="1572536912985" duration="75325000" />
+      <workItem from="1572536912985" duration="83047000" />
     </task>
     <task id="LOCAL-00001" summary="test commit">
       <created>1572976307910</created>
