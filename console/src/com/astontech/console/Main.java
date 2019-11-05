@@ -14,7 +14,7 @@ public class Main {
 
         LessonCollectionsLAB();
 
-        //test comment
+        //test comment second one
     }
 
     public static void LessonCollectionsLAB(){
