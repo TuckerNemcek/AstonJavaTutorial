@@ -13,6 +13,8 @@ public class Main {
     public static void main(String[] args) {
 
         LessonCollectionsLAB();
+
+        //test comment
     }
 
     public static void LessonCollectionsLAB(){
