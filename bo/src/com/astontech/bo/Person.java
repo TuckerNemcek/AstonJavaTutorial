@@ -1,8 +1,11 @@
 package com.astontech.bo;
 
+import common.helpers.StringHelper;
+
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
+
 
 public class Person extends BaseBo {
     //region PROPERTIES
@@ -117,21 +120,16 @@ public class Person extends BaseBo {
     //region CUSTOM METHODS
     //notes:    this will become an extension method.
 
-    public static boolean isNullOrEmpty(String s) {
-        return s == null || s.length() == 0;
-    }
-
     public String GetFullName() {
-        if(isNullOrEmpty(this.FirstName) && isNullOrEmpty(this.LastName))
+        if(StringHelper.isNullOrEmpty(this.FirstName) && StringHelper.isNullOrEmpty(this.LastName))
             return "No name set";
             else{
-                if (isNullOrEmpty(this.FirstName))
+                if (StringHelper.isNullOrEmpty(this.FirstName))
                     return this.LastName;
-                else if (isNullOrEmpty(this.LastName))
+                else if (StringHelper.isNullOrEmpty(this.LastName))
                     return this.FirstName;
                 else  return this.FirstName + " " + this.LastName;
         }
-
     }
     //endregion
 }

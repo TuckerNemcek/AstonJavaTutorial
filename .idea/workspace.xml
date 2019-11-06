@@ -2,8 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3475e155-34db-4cc0-8daa-2e3b6219760c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/log4j_1_2_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bo/src/com/astontech/bo/interfaces/Home.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bo/src/com/astontech/bo/interfaces/ILocation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bo/src/com/astontech/bo/interfaces/Site.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/common.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/common/helpers/MathHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/common/helpers/StringHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/console/src/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bo/bo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/bo/bo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bo/src/com/astontech/bo/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/bo/src/com/astontech/bo/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.astontech.oop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/com.astontech.oop.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/console/console.iml" beforeDir="false" afterPath="$PROJECT_DIR$/console/console.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/console/src/com/astontech/common/Math.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/console/src/com/astontech/console/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/console/src/com/astontech/console/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exportToHTML/com/astontech/bo/Address.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exportToHTML/com/astontech/bo/Email.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exportToHTML/com/astontech/bo/Phone.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exportToHTML/com/astontech/bo/ProjectStatus.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exportToHTML/com/astontech/bo/VehicleMake.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exportToHTML/com/astontech/console/Main.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/bo/com/astontech/bo/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/bo/com/astontech/bo/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/console/com/astontech/common/Math.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/console/com/astontech/console/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/console/com/astontech/console/Main.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,6 +50,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -44,7 +67,9 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1SqOVdK1aLbTuoRRFElwiWug4Ht" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.Annotations" value="false" />
@@ -53,7 +78,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/bo/src/com/astontech/bo" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/log4j-1.2.17/apache-log4j-1.2.17/log4j-1.2.17.jar!/" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -61,7 +86,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.propCompiler" />
@@ -112,7 +137,7 @@
       <updated>1572287683359</updated>
       <workItem from="1572287698903" duration="23217000" />
       <workItem from="1572377849256" duration="28098000" />
-      <workItem from="1572536912985" duration="83047000" />
+      <workItem from="1572536912985" duration="101338000" />
     </task>
     <task id="LOCAL-00001" summary="test commit">
       <created>1572976307910</created>
@@ -141,5 +166,21 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test commit" />
     <option name="LAST_COMMIT_MESSAGE" value="test commit" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/console/src/com/astontech/console/Main.java</url>
+          <line>568</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="myStringArray" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

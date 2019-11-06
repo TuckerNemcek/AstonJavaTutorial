@@ -1,20 +1,68 @@
 package com.astontech.console;
 
 import com.astontech.bo.*;
-import org.w3c.dom.ls.LSOutput;
+import com.astontech.bo.interfaces.Home;
+import com.astontech.bo.interfaces.ILocation;
+import com.astontech.bo.interfaces.Site;
+import common.helpers.MathHelper;
+import org.apache.log4j.Logger;
 
 import java.util.*;
 
 
 public class Main {
 
-    public static void main(String[] args) {
+    final static Logger logger = Logger.getLogger(Main.class);
 
-        OOPPrincipalsLab04();
+    public static void main(String[] args) {
+        LessonLogging();
 
         //test comment second one
     }
-    public static void OOPPrincipalsLab04(){
+
+    private static void LessonLogging(){
+        //notes:    levels of logging
+        logger.debug("This is a DEBUG log message");
+        logger.info("This is a INFO log message");
+        //notes:    production levels
+        logger.warn("This is a WARN log message");
+        logger.error("This is a ERROR log message");
+        logger.fatal("This is a FATAL log message");
+
+        //notes:    log an exception
+        try{
+            int i = 10 / 0;
+        } catch (ArithmeticException ex){
+            logger.error("An exception occurred: " + ex);
+        }
+    }
+    private static void LessonInterfacesTest() {
+        Site MN010 = new Site();
+        MN010.setSiteName("MN010");
+        MN010.setCoffeeMachines(2);
+        MN010.setConferenceRooms(1);
+        MN010.setCubicles(8);
+        MN010.setOffices(6);
+        MN010.setTrainingDesks(36);
+
+        Home BipsHouse = new Home();
+        BipsHouse.setAddress("1 Main St.");
+        BipsHouse.setOwner(new Employee("Bipin", "Butala"));
+
+        LessonInterfaces(MN010);
+        LessonInterfaces(BipsHouse);
+    }
+    private static void LessonInterfaces(ILocation Ilocation){
+        System.out.println("=======================");
+        System.out.println("Location Name: " + Ilocation.getLocationName());
+        System.out.println("Can Have Meetings: " + Ilocation.canHaveMeetings());
+        System.out.println("Number of Workspaces: " + Ilocation.numberOfWorkspaces());
+        System.out.println("Has Coffee! : " + Ilocation.hasCoffee());
+    };
+    private static void LessonValueVsRef(){
+        System.out.println(MathHelper.PI);
+    }
+    private static void OOPPrincipalsLab04(){
         // region 1
 /*        Instance is one example of many. I am an instance of a person. You would not want to make an instance of something
           you are going to be making a lot of. Static is something you are going to make a lot of. It is less cumbersome to
@@ -93,11 +141,7 @@ public class Main {
 
         //endregion
     }
-
-
-
-
-    public static void LessonCollectionsLAB(){
+    private static void LessonCollectionsLAB(){
         List<Vehicle> vehicleList = new ArrayList<>();
 
         VehicleMake jeep = new VehicleMake();
@@ -143,7 +187,7 @@ public class Main {
         }
 
     }
-    public static void LessonComplexProperties(){
+    private static void LessonComplexProperties(){
         EntityType emailWorkType = new EntityType();
         emailWorkType.setEntityTypeId(1);
 
@@ -161,7 +205,7 @@ public class Main {
             System.out.println(email.getEmailAddress());
         }
     }
-    public static void OOPPrincipalsLab02(){
+    private static void OOPPrincipalsLab02(){
         Phone tuckPhone = new Phone();
         tuckPhone.setPhoneNumber(6513015752L);
         String phoneLength = tuckPhone.PhoneNumLength();

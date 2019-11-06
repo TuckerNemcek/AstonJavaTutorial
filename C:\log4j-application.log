@@ -1,0 +1,11 @@
+2019-11-06 13:56:31 DEBUG Main:24 - This is a DEBUG log message
+2019-11-06 13:56:31 INFO  Main:25 - This is a INFO log message
+2019-11-06 13:56:31 WARN  Main:26 - This is a WARN log message
+2019-11-06 13:56:31 ERROR Main:27 - This is a ERROR log message
+2019-11-06 13:56:31 FATAL Main:28 - This is a FATAL log message
+2019-11-06 14:25:59 DEBUG Main:25 - This is a DEBUG log message
+2019-11-06 14:25:59 INFO  Main:26 - This is a INFO log message
+2019-11-06 14:25:59 WARN  Main:28 - This is a WARN log message
+2019-11-06 14:25:59 ERROR Main:29 - This is a ERROR log message
+2019-11-06 14:25:59 FATAL Main:30 - This is a FATAL log message
+2019-11-06 14:25:59 ERROR Main:36 - An exception occurred: java.lang.ArithmeticException: / by zero

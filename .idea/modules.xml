@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/bo/bo.iml" filepath="$PROJECT_DIR$/bo/bo.iml" />
       <module fileurl="file://$PROJECT_DIR$/com.astontech.oop.iml" filepath="$PROJECT_DIR$/com.astontech.oop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common/common.iml" filepath="$PROJECT_DIR$/common/common.iml" />
       <module fileurl="file://$PROJECT_DIR$/console/console.iml" filepath="$PROJECT_DIR$/console/console.iml" />
     </modules>
   </component>
