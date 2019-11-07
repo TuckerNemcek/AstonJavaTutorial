@@ -2,6 +2,7 @@ package com.astontech.console;
 
 import com.astontech.bo.*;
 import com.astontech.bo.interfaces.Home;
+import com.astontech.bo.interfaces.IFeelings;
 import com.astontech.bo.interfaces.ILocation;
 import com.astontech.bo.interfaces.Site;
 import common.helpers.MathHelper;
@@ -15,9 +16,8 @@ public class Main {
     final static Logger logger = Logger.getLogger(Main.class);
 
     public static void main(String[] args) {
-        LessonLogging();
+        LessonCollectionsLABandLab05();
 
-        //test comment second one
     }
 
     private static void LessonLogging(){
@@ -141,7 +141,17 @@ public class Main {
 
         //endregion
     }
-    private static void LessonCollectionsLAB(){
+
+
+    private static void Lab05Part5(IFeelings Ifeelings){
+        if (Ifeelings.ownerShip()){
+            System.out.println("I have owned this");
+        } else System.out.println("I have not owned this");
+        System.out.println("I feel like: " +Ifeelings.mood());
+        System.out.println("I feel this a: " +Ifeelings.passion() + " out of 10");
+    }
+
+    private static void LessonCollectionsLABandLab05(){
         List<Vehicle> vehicleList = new ArrayList<>();
 
         VehicleMake jeep = new VehicleMake();
@@ -182,11 +192,36 @@ public class Main {
         vehicleList.add(theTesla);
         vehicleList.add(theBMW);
 
+        System.out.println(theBMW.mood());
+
+        IFeelings bmwFeelings = theBMW;
+        System.out.println(bmwFeelings.passion());
+
+        Lab05Part5(battleBuick);
+
         for(Vehicle v : vehicleList){
             System.out.println(" " +v.getVehicleId() +" The " + v.getVehicleModel().getVehicleMake().getVehicleMakeName() +" " +v.getVehicleModel().getVehicleModelName() +" " + v.getColor() +" goes "+v.getVehicleModel().getVehicleMake().CarNoise() );
         }
 
+        System.out.println(Backwards("Heya"));
+
+        // So I looked in the docs, and it turns out that String is part of the CharSequence interface, so I should be fine just reversing a string. If you want me to do it another way please let me know.
     }
+
+    public static String Backwards(String str) {
+        int i = 0;
+        String collec = "";
+        Hashtable<Integer, Character>reverser = new Hashtable<>();
+        while (str.length() != 0){
+            reverser.put(i++,str.toCharArray()[0]);
+            str = str.substring(1);
+        }
+        for(Integer key : reverser.keySet()){
+            collec += reverser.get(key);
+        }
+        return collec;
+    }
+
     private static void LessonComplexProperties(){
         EntityType emailWorkType = new EntityType();
         emailWorkType.setEntityTypeId(1);

@@ -84,6 +84,4 @@ public class Site implements ILocation {
         }
         else return false;
     }
-
-
 }

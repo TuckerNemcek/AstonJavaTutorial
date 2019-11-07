@@ -8,4 +8,9 @@ public class StringHelper {
         return s == null || s.length() == 0;
     }
 
+    //new helper methods here
+    public static boolean isEmail(String s){return s.contains("@") && s.contains(".com");}
+
+    public static boolean isVINlongEnough(String s){return s.length() == 17;}
+
 }

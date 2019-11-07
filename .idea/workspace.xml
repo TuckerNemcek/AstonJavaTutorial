@@ -2,30 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3475e155-34db-4cc0-8daa-2e3b6219760c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/log4j_1_2_17.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bo/src/com/astontech/bo/interfaces/Home.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bo/src/com/astontech/bo/interfaces/ILocation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bo/src/com/astontech/bo/interfaces/Site.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/common.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/common/helpers/MathHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/common/helpers/StringHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/console/src/log4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bo/src/com/astontech/bo/interfaces/IFeelings.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bo/bo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/bo/bo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bo/src/com/astontech/bo/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/bo/src/com/astontech/bo/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.astontech.oop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/com.astontech.oop.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/console/console.iml" beforeDir="false" afterPath="$PROJECT_DIR$/console/console.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/console/src/com/astontech/common/Math.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bo/src/com/astontech/bo/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/bo/src/com/astontech/bo/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bo/src/com/astontech/bo/interfaces/Site.java" beforeDir="false" afterPath="$PROJECT_DIR$/bo/src/com/astontech/bo/interfaces/Site.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/common/helpers/MathHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/common/helpers/MathHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/common/helpers/StringHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/common/helpers/StringHelper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/console/src/com/astontech/console/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/console/src/com/astontech/console/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exportToHTML/com/astontech/bo/Address.java.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exportToHTML/com/astontech/bo/Email.java.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exportToHTML/com/astontech/bo/Phone.java.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exportToHTML/com/astontech/bo/ProjectStatus.java.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exportToHTML/com/astontech/bo/VehicleMake.java.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exportToHTML/com/astontech/console/Main.java.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/bo/com/astontech/bo/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/bo/com/astontech/bo/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/console/com/astontech/common/Math.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/bo/com/astontech/bo/Vehicle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/bo/com/astontech/bo/Vehicle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/common/common/helpers/MathHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/common/common/helpers/MathHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/common/common/helpers/StringHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/common/common/helpers/StringHelper.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/console/com/astontech/console/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/console/com/astontech/console/Main.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -50,15 +36,15 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="TestBranch" />
+        <entry key="$PROJECT_DIR$" value="OOP_Principals-Lab4" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -137,7 +123,7 @@
       <updated>1572287683359</updated>
       <workItem from="1572287698903" duration="23217000" />
       <workItem from="1572377849256" duration="28098000" />
-      <workItem from="1572536912985" duration="101338000" />
+      <workItem from="1572536912985" duration="122952000" />
     </task>
     <task id="LOCAL-00001" summary="test commit">
       <created>1572976307910</created>
@@ -168,15 +154,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="test commit" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/console/src/com/astontech/console/Main.java</url>
-          <line>568</line>
-          <option name="timeStamp" value="28" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
         <watch expression="myStringArray" />

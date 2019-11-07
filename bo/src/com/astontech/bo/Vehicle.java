@@ -1,9 +1,11 @@
 package com.astontech.bo;
 
+import com.astontech.bo.interfaces.IFeelings;
+
 import java.time.Year;
 import java.util.Date;
 
-public class Vehicle extends BaseBo {
+public class Vehicle extends BaseBo implements IFeelings, Comparable {
     // PARAMETERS
 
     private int VehicleId;
@@ -111,5 +113,51 @@ public class Vehicle extends BaseBo {
 
     public void setVehicleModel(VehicleModel vehicleModel) {
         this.vehicleModel = vehicleModel;
+    }
+
+    @Override
+    public boolean ownerShip() {
+        if(vehicleModel.getVehicleModelName() == "Regal" ||vehicleModel.getVehicleModelName() == "Liberty"){
+            return true;
+        }
+        else return false;
+    }
+
+    @Override
+    public String mood() {
+        if(vehicleModel.getVehicleMake().getVehicleMakeName() == "Buick"){
+            return "Never again";
+        }
+        if(vehicleModel.getVehicleMake().getVehicleMakeName() == "Jeep"){
+            return "Hell yeah";
+        }
+        if(vehicleModel.getVehicleMake().getVehicleMakeName() == "Tesla"){
+            return "Someday";
+        }
+        if(vehicleModel.getVehicleMake().getVehicleMakeName() == "BMW"){
+            return "Eat your pheasant \n Drink your wine\n Your day will come bourgeoisie swine";
+        }
+        else return "meh";
+    }
+
+    @Override
+    public int passion() {
+        if(vehicleModel.getVehicleMake().getVehicleMakeName() == "Buick"){
+            return 8;
+        }
+        if(vehicleModel.getVehicleMake().getVehicleMakeName() == "Jeep"){
+            return 10;
+        }
+        if(vehicleModel.getVehicleMake().getVehicleMakeName() == "Tesla"){
+            return 7;
+        }
+        if(vehicleModel.getVehicleMake().getVehicleMakeName() == "BMW"){
+            return 3;
+        }
+        else return 0;    }
+
+    @Override
+    public int compareTo(Object o) {
+        return 0;
     }
 }

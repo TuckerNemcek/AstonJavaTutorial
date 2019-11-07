@@ -7,7 +7,7 @@ import java.util.Date;
 import java.util.List;
 
 
-public class Person extends BaseBo {
+public class Person extends BaseBo implements Comparable {
     //region PROPERTIES
 
     // PersonId
@@ -130,6 +130,11 @@ public class Person extends BaseBo {
                     return this.FirstName;
                 else  return this.FirstName + " " + this.LastName;
         }
+    }
+
+    @Override
+    public int compareTo(Object o) {
+        return 0;
     }
     //endregion
 }
