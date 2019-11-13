@@ -5,10 +5,14 @@ import com.astontech.bo.interfaces.Home;
 import com.astontech.bo.interfaces.IFeelings;
 import com.astontech.bo.interfaces.ILocation;
 import com.astontech.bo.interfaces.Site;
+import com.astontech.dao.PersonDAO;
+import com.astontech.dao.mysql.PersonDAOImpl;
 import common.helpers.MathHelper;
 import org.apache.log4j.Logger;
 
+import java.sql.*;
 import java.util.*;
+import java.util.Date;
 
 
 public class Main {
@@ -16,10 +20,122 @@ public class Main {
     final static Logger logger = Logger.getLogger(Main.class);
 
     public static void main(String[] args) {
-        LessonCollectionsLABandLab05();
+    DatabaseConnectionLab();
 
     }
+    private static Connection DatabaseConnectionLab(){
+        String dbHost = "localhost";
+        String dbName = "connlab";
+        String dbUser = "tucker";
+        String dbPass = "Dingodog,21!";
 
+
+        try {
+            Class.forName("org.postgresql.Driver");
+        } catch (ClassNotFoundException ex){
+            logger.error("SSMS Driver not found!" + ex);
+        }
+        logger.info("SSMS Driver Registered");
+        Connection connection = null;
+
+        try{
+            connection = DriverManager.getConnection("jdbc:postgresql://localhost/connlab?user=tucker&password=qwe123$!&ssl=false");
+        } catch(SQLException ex) {
+            logger.error("Connection failed!" + ex);
+            return null;
+        }
+        if(connection != null){
+            logger.info("Successfully connected to SSMS database");
+            return connection;
+        } else {
+            logger.info("Connection failed!");
+            return null;
+        }
+    }
+
+
+    private static void LessonDAO(){
+        //region CREATE MENU
+        PersonDAO personDAO = new PersonDAOImpl();
+        List<Person> personList = personDAO.getPersonList();
+
+        System.out.println("==============================");
+
+        for(Person person : personList){
+            System.out.println(person.getPersonId() + ") " + person.getLastName() + ", " + person.getFirstName());
+        }
+        System.out.println("==============================");
+
+        //endregion
+
+        //region PROMPT USER
+        Scanner reader = new Scanner(System.in);
+        System.out.println("Please Select a Person from list: ");
+        String personId = reader.nextLine();
+        //endregion
+
+        //region GET PERSON DETAILS
+        Person personDetail = personDAO.getPersonById(Integer.parseInt(personId));
+
+        System.out.println("-----PERSON DETAILS -----");
+        System.out.println("Full Name: " + personDetail.getFirstName() + " " + personDetail.getLastName());
+        System.out.println("DOB: " + personDetail.getBirthDate());
+        System.out.println("SSN: " + personDetail.getSSN());
+
+        //endregion
+    };
+    private static void LessonExecQuery(){
+        Connection conn = LessonDBConnection();
+        try {
+            Statement statement = conn.createStatement();
+            String sql = "select PersonId, FirstName, LastName from Person";
+
+            ResultSet rs = statement.executeQuery(sql);
+            while(rs.next()) {
+                int personId = rs.getInt(1);
+                String firstName = rs.getString(2);
+                String lastName = rs.getString(3);
+
+                logger.info(personId + ": "+ firstName + " " + lastName);
+            }
+            conn.close();
+
+        } catch (SQLException sqlEx) {
+            logger.error(sqlEx);
+        }
+    }
+    private static Connection LessonDBConnection(){
+        String dbHost = "localhost";
+        String dbName = "db2";
+        String dbUser = "consoleUser";
+        String dbPass = "qwe123$!";
+        String useSSL = "false";
+        String procBod = "true";
+
+        try {
+            Class.forName("com.mysql.jdbc.Driver");
+        } catch (ClassNotFoundException ex){
+            logger.error("MySQL Driver not found!" + ex);
+            return null;
+        }
+
+        logger.info("MySQL Driver Registered");
+        Connection connection = null;
+
+        try{
+            connection = DriverManager.getConnection("jdbc:mysql://" +dbHost+":3306/" +dbName +"?useSSL=" + useSSL + "&noAccessToProcedureBodies=" + procBod, dbUser, dbPass);
+        } catch(SQLException ex) {
+            logger.error("Connection failed!" + ex);
+            return null;
+        }
+        if(connection != null){
+            logger.info("Successfully connected to MySQL database");
+            return connection;
+        } else {
+            logger.info("Connection failed!");
+            return null;
+        }
+    }
     private static void LessonLogging(){
         //notes:    levels of logging
         logger.debug("This is a DEBUG log message");
@@ -141,8 +257,6 @@ public class Main {
 
         //endregion
     }
-
-
     private static void Lab05Part5(IFeelings Ifeelings){
         if (Ifeelings.ownerShip()){
             System.out.println("I have owned this");
@@ -150,7 +264,6 @@ public class Main {
         System.out.println("I feel like: " +Ifeelings.mood());
         System.out.println("I feel this a: " +Ifeelings.passion() + " out of 10");
     }
-
     private static void LessonCollectionsLABandLab05(){
         List<Vehicle> vehicleList = new ArrayList<>();
 
@@ -203,11 +316,10 @@ public class Main {
             System.out.println(" " +v.getVehicleId() +" The " + v.getVehicleModel().getVehicleMake().getVehicleMakeName() +" " +v.getVehicleModel().getVehicleModelName() +" " + v.getColor() +" goes "+v.getVehicleModel().getVehicleMake().CarNoise() );
         }
 
-        System.out.println(Backwards("Heya"));
+        Backwards("Heya");
 
         // So I looked in the docs, and it turns out that String is part of the CharSequence interface, so I should be fine just reversing a string. If you want me to do it another way please let me know.
     }
-
     public static String Backwards(String str) {
         int i = 0;
         String collec = "";
@@ -221,7 +333,6 @@ public class Main {
         }
         return collec;
     }
-
     private static void LessonComplexProperties(){
         EntityType emailWorkType = new EntityType();
         emailWorkType.setEntityTypeId(1);

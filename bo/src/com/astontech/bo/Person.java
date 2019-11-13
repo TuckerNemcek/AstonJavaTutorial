@@ -16,16 +16,18 @@ public class Person extends BaseBo implements Comparable {
     private String Title;
     //First Name
     private String FirstName;
+    //MiddleName
+    private String MiddleName;
     //Last Name
     private String LastName;
     //DisplayFirstName
     private String DisplayFirstName;
-    //Create date
-    private Date CreateDate;
     //Gender
     private String Gender;
-    //Is Deleted
-    private boolean isDeleted;
+    //Date
+    private Date BirthDate;
+    //SSN
+    private String SSN;
 
     private List<Email> Emails;
 
@@ -51,13 +53,6 @@ public class Person extends BaseBo implements Comparable {
         Emails = emailList;
     }
 
-
-    public boolean isDeleted() {
-        return isDeleted;
-    }
-    public void setDeleted(boolean deleted) {
-        isDeleted = deleted;
-    }
 
     public void setPersonId(int personId){
         this.PersonId = personId;
@@ -107,15 +102,39 @@ public class Person extends BaseBo implements Comparable {
         return this.Gender;
     }
 
-    public Date getCreateDate() {
-        return CreateDate;
+    public String getMiddleName() {
+        return MiddleName;
     }
 
-    public void setCreateDate(Date createDate) {
-        CreateDate = createDate;
+    public void setMiddleName(String middleName) {
+        MiddleName = middleName;
     }
 
-    //endregion
+    public Date getBirthDate() {
+        return BirthDate;
+    }
+
+    public void setBirthDate(Date birthDate) {
+        BirthDate = birthDate;
+    }
+
+    public String getSSN() {
+        return SSN;
+    }
+
+    public void setSSN(String SSN) {
+        this.SSN = SSN;
+    }
+
+    public List<Address> getAdresses() {
+        return Adresses;
+    }
+
+    public void setAdresses(List<Address> adresses) {
+        Adresses = adresses;
+    }
+
+//endregion
 
     //region CUSTOM METHODS
     //notes:    this will become an extension method.

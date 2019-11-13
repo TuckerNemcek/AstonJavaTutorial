@@ -9,3 +9,177 @@
 2019-11-06 14:25:59 ERROR Main:29 - This is a ERROR log message
 2019-11-06 14:25:59 FATAL Main:30 - This is a FATAL log message
 2019-11-06 14:25:59 ERROR Main:36 - An exception occurred: java.lang.ArithmeticException: / by zero
+2019-11-07 15:50:33 ERROR Main:27 - MySQL Driver not found!java.lang.ClassNotFoundException: com.mysql.jdbc.Driver
+2019-11-07 16:03:57 ERROR Main:27 - MySQL Driver not found!java.lang.ClassNotFoundException: com.mysql.jdbc.Driver
+2019-11-07 16:06:19 INFO  Main:31 - MySQL Driver Registered
+2019-11-07 16:13:18 INFO  Main:34 - MySQL Driver Registered
+2019-11-07 16:13:19 ERROR Main:40 - Connection failed!java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+2019-11-07 16:14:53 INFO  Main:34 - MySQL Driver Registered
+2019-11-07 16:14:53 ERROR Main:40 - Connection failed!com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown database 'hr'
+2019-11-07 16:16:46 INFO  Main:34 - MySQL Driver Registered
+2019-11-07 16:16:46 ERROR Main:40 - Connection failed!com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown database 'db'
+2019-11-07 16:20:25 INFO  Main:34 - MySQL Driver Registered
+2019-11-07 16:20:25 ERROR Main:40 - Connection failed!com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown database 'mydb'
+2019-11-07 16:20:47 INFO  Main:34 - MySQL Driver Registered
+2019-11-07 16:20:48 INFO  Main:44 - Successfully connected to MySQL database
+2019-11-07 16:28:33 INFO  Main:39 - MySQL Driver Registered
+2019-11-07 16:28:34 INFO  Main:49 - Successfully connected to MySQL database
+2019-11-07 16:51:24 INFO  Main:39 - MySQL Driver Registered
+2019-11-07 16:51:24 INFO  Main:49 - Successfully connected to MySQL database
+2019-11-07 16:53:37 INFO  Main:39 - MySQL Driver Registered
+2019-11-07 16:53:38 INFO  Main:49 - Successfully connected to MySQL database
+2019-11-11 09:30:33 INFO  Main:54 - MySQL Driver Registered
+2019-11-11 09:30:33 INFO  Main:64 - Successfully connected to MySQL database
+2019-11-11 09:30:33 ERROR Main:37 - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'db2.person' doesn't exist
+2019-11-11 09:31:34 INFO  Main:55 - MySQL Driver Registered
+2019-11-11 09:31:34 INFO  Main:65 - Successfully connected to MySQL database
+2019-11-11 09:31:52 INFO  Main:55 - MySQL Driver Registered
+2019-11-11 09:31:52 INFO  Main:65 - Successfully connected to MySQL database
+2019-11-11 09:31:52 ERROR Main:38 - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'db2.person' doesn't exist
+2019-11-11 09:37:24 INFO  Main:55 - MySQL Driver Registered
+2019-11-11 09:37:25 INFO  Main:65 - Successfully connected to MySQL database
+2019-11-11 09:37:25 ERROR Main:38 - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'db2.person' doesn't exist
+2019-11-11 09:39:32 INFO  Main:55 - MySQL Driver Registered
+2019-11-11 09:39:32 INFO  Main:65 - Successfully connected to MySQL database
+2019-11-11 09:39:52 INFO  Main:55 - MySQL Driver Registered
+2019-11-11 09:39:52 INFO  Main:65 - Successfully connected to MySQL database
+2019-11-11 09:39:52 ERROR Main:38 - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'db2.person' doesn't exist
+2019-11-11 09:40:30 INFO  Main:55 - MySQL Driver Registered
+2019-11-11 09:40:31 INFO  Main:65 - Successfully connected to MySQL database
+2019-11-11 09:40:31 INFO  Main:33 - Dan Simmer
+2019-11-11 09:40:31 INFO  Main:33 - James McRoberts
+2019-11-11 09:40:31 INFO  Main:33 - Adrian Ratnayake
+2019-11-11 09:40:31 INFO  Main:33 - Sean Nilsen
+2019-11-11 09:40:31 INFO  Main:33 - Eric Begin
+2019-11-11 09:40:31 INFO  Main:33 - Kevin Love
+2019-11-11 09:40:31 INFO  Main:33 - Michael Jordan
+2019-11-11 09:40:31 INFO  Main:33 - Jim Beam
+2019-11-11 09:47:06 INFO  Main:59 - MySQL Driver Registered
+2019-11-11 09:47:07 INFO  Main:69 - Successfully connected to MySQL database
+2019-11-11 09:47:07 INFO  Main:37 - 1: Dan Simmer
+2019-11-11 09:47:07 INFO  Main:37 - 2: James McRoberts
+2019-11-11 09:47:07 INFO  Main:37 - 3: Adrian Ratnayake
+2019-11-11 09:47:07 INFO  Main:37 - 4: Sean Nilsen
+2019-11-11 09:47:07 INFO  Main:37 - 5: Eric Begin
+2019-11-11 09:47:07 INFO  Main:37 - 6: Kevin Love
+2019-11-11 09:47:07 INFO  Main:37 - 7: Michael Jordan
+2019-11-11 09:47:07 INFO  Main:37 - 8: Jim Beam
+2019-11-11 10:02:36 INFO  Main:59 - MySQL Driver Registered
+2019-11-11 10:02:36 ERROR Main:65 - Connection failed!java.sql.SQLException: Access denied for user 'console'@'localhost' (using password: YES)
+2019-11-11 10:03:17 INFO  Main:59 - MySQL Driver Registered
+2019-11-11 10:03:18 ERROR Main:65 - Connection failed!java.sql.SQLException: Access denied for user 'console'@'localhost' (using password: YES)
+2019-11-11 10:03:57 INFO  Main:59 - MySQL Driver Registered
+2019-11-11 10:03:58 ERROR Main:65 - Connection failed!java.sql.SQLException: Access denied for user 'console'@'localhost' (using password: YES)
+2019-11-11 10:10:08 INFO  Main:59 - MySQL Driver Registered
+2019-11-11 10:10:09 INFO  Main:69 - Successfully connected to MySQL database
+2019-11-11 10:10:23 INFO  Main:59 - MySQL Driver Registered
+2019-11-11 10:10:24 INFO  Main:69 - Successfully connected to MySQL database
+2019-11-11 10:10:24 INFO  Main:37 - 1: Dan Simmer
+2019-11-11 10:10:24 INFO  Main:37 - 2: James McRoberts
+2019-11-11 10:10:24 INFO  Main:37 - 3: Adrian Ratnayake
+2019-11-11 10:10:24 INFO  Main:37 - 4: Sean Nilsen
+2019-11-11 10:10:24 INFO  Main:37 - 5: Eric Begin
+2019-11-11 10:10:24 INFO  Main:37 - 6: Kevin Love
+2019-11-11 10:10:24 INFO  Main:37 - 7: Michael Jordan
+2019-11-11 10:10:24 INFO  Main:37 - 8: Jim Beam
+2019-11-11 10:25:25 INFO  Main:61 - MySQL Driver Registered
+2019-11-11 10:25:26 INFO  Main:71 - Successfully connected to MySQL database
+2019-11-11 10:25:26 INFO  Main:37 - 1: Dan Simmer
+2019-11-11 10:25:26 INFO  Main:37 - 2: James McRoberts
+2019-11-11 10:25:26 INFO  Main:37 - 3: Adrian Ratnayake
+2019-11-11 10:25:26 INFO  Main:37 - 4: Sean Nilsen
+2019-11-11 10:25:26 INFO  Main:37 - 5: Eric Begin
+2019-11-11 10:25:26 INFO  Main:37 - 6: Kevin Love
+2019-11-11 10:25:26 INFO  Main:37 - 7: Michael Jordan
+2019-11-11 10:25:26 INFO  Main:37 - 8: Jim Beam
+2019-11-12 10:34:02 INFO  MySQL:27 - MySQL Driver Registered
+2019-11-12 10:34:04 INFO  MySQL:36 - Successfully connected to MySQL database
+2019-11-12 10:40:07 INFO  MySQL:27 - MySQL Driver Registered
+2019-11-12 10:40:08 INFO  MySQL:36 - Successfully connected to MySQL database
+2019-11-12 10:51:04 INFO  MySQL:27 - MySQL Driver Registered
+2019-11-12 10:51:04 INFO  MySQL:36 - Successfully connected to MySQL database
+2019-11-12 10:54:30 INFO  MySQL:27 - MySQL Driver Registered
+2019-11-12 10:54:31 INFO  MySQL:36 - Successfully connected to MySQL database
+2019-11-12 10:55:00 INFO  MySQL:27 - MySQL Driver Registered
+2019-11-12 10:55:01 INFO  MySQL:36 - Successfully connected to MySQL database
+2019-11-12 11:21:54 ERROR Main:37 - SSMS Driver not found!java.lang.ClassNotFoundException: com.mssql.jdbc.Driver
+2019-11-12 11:21:54 INFO  Main:39 - MySQL Driver Registered
+2019-11-12 11:21:55 INFO  Main:48 - Successfully connected to MySQL database
+2019-11-12 11:22:39 ERROR Main:37 - SSMS Driver not found!java.lang.ClassNotFoundException: com.mssql.jdbc.Driver
+2019-11-12 11:22:39 INFO  Main:39 - MySQL Driver Registered
+2019-11-12 11:22:40 INFO  Main:49 - Successfully connected to MySQL database
+2019-11-12 11:30:15 ERROR Main:37 - SSMS Driver not found!java.lang.ClassNotFoundException: com.mssql.jdbc.Driver
+2019-11-12 11:30:15 INFO  Main:39 - SSMS Driver Registered
+2019-11-12 11:30:16 INFO  Main:49 - Successfully connected to SSMS database
+2019-11-12 11:34:06 ERROR Main:37 - SSMS Driver not found!java.lang.ClassNotFoundException: com.mssql.jdbc.Driver
+2019-11-12 11:34:06 INFO  Main:39 - SSMS Driver Registered
+2019-11-12 11:34:06 ERROR Main:45 - Connection failed!java.sql.SQLException: No suitable driver found for mssql.jdbc://localhost:3306/db2?useSSL=false&noAccessToProcedureBodies=true
+2019-11-12 11:39:02 ERROR Main:37 - SSMS Driver not found!java.lang.ClassNotFoundException: com.mssql.jdbc.Driver
+2019-11-12 11:39:02 INFO  Main:39 - SSMS Driver Registered
+2019-11-12 11:39:17 ERROR Main:45 - Connection failed!com.microsoft.sqlserver.jdbc.SQLServerException: The TCP/IP connection to the host localhost, port 3306 has failed. Error: "The driver received an unexpected pre-login response. Verify the connection properties and check that an instance of SQL Server is running on the host and accepting TCP/IP connections at the port. This driver can be used only with SQL Server 2005 or later.". ClientConnectionId:2ac81c81-9957-41e8-b92e-f67eb847f540
+2019-11-12 11:47:24 INFO  Main:39 - SSMS Driver Registered
+2019-11-12 11:47:39 ERROR Main:45 - Connection failed!com.microsoft.sqlserver.jdbc.SQLServerException: The TCP/IP connection to the host localhost, port 3306 has failed. Error: "The driver received an unexpected pre-login response. Verify the connection properties and check that an instance of SQL Server is running on the host and accepting TCP/IP connections at the port. This driver can be used only with SQL Server 2005 or later.". ClientConnectionId:0e0ad4a6-2b33-4b64-afe3-5c5162b759df
+2019-11-12 12:31:38 INFO  Main:38 - SSMS Driver Registered
+2019-11-12 12:31:53 ERROR Main:44 - Connection failed!com.microsoft.sqlserver.jdbc.SQLServerException: The TCP/IP connection to the host localhost, port 3306 has failed. Error: "The driver received an unexpected pre-login response. Verify the connection properties and check that an instance of SQL Server is running on the host and accepting TCP/IP connections at the port. This driver can be used only with SQL Server 2005 or later.". ClientConnectionId:a0ffdd8d-0002-40fb-9773-283b41978ad4
+2019-11-12 12:42:19 INFO  Main:38 - SSMS Driver Registered
+2019-11-12 12:42:19 ERROR Main:44 - Connection failed!com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Cannot load connection class because of underlying exception: 'java.lang.NumberFormatException: For input string: "3306;databaseName=db2;user=consoleUser;password=qwe123$!"'.
+2019-11-12 12:49:06 INFO  Main:38 - SSMS Driver Registered
+2019-11-12 12:49:21 ERROR Main:44 - Connection failed!com.microsoft.sqlserver.jdbc.SQLServerException: The TCP/IP connection to the host localhost, port 3306 has failed. Error: "The driver received an unexpected pre-login response. Verify the connection properties and check that an instance of SQL Server is running on the host and accepting TCP/IP connections at the port. This driver can be used only with SQL Server 2005 or later.". ClientConnectionId:a5644907-e34b-4960-a27a-637c680e8a81
+2019-11-12 13:02:39 INFO  Main:38 - SSMS Driver Registered
+2019-11-12 13:02:54 ERROR Main:44 - Connection failed!com.microsoft.sqlserver.jdbc.SQLServerException: The TCP/IP connection to the host localhost, port 3306 has failed. Error: "The driver received an unexpected pre-login response. Verify the connection properties and check that an instance of SQL Server is running on the host and accepting TCP/IP connections at the port. This driver can be used only with SQL Server 2005 or later.". ClientConnectionId:975fb44a-012a-4ae0-9f2e-947b81fe24d4
+2019-11-12 13:23:43 INFO  Main:38 - SSMS Driver Registered
+2019-11-12 13:23:58 ERROR Main:44 - Connection failed!com.microsoft.sqlserver.jdbc.SQLServerException: The TCP/IP connection to the host localhost, port 3306 has failed. Error: "The driver received an unexpected pre-login response. Verify the connection properties and check that an instance of SQL Server is running on the host and accepting TCP/IP connections at the port. This driver can be used only with SQL Server 2005 or later.". ClientConnectionId:10c5ac74-a3be-44cb-b01d-203078ecaf3b
+2019-11-12 13:26:18 INFO  Main:38 - SSMS Driver Registered
+2019-11-12 13:26:33 ERROR Main:44 - Connection failed!com.microsoft.sqlserver.jdbc.SQLServerException: The TCP/IP connection to the host localhost, port 1443 has failed. Error: "Connection refused (Connection refused). Verify the connection properties. Make sure that an instance of SQL Server is running on the host and accepting TCP/IP connections at the port. Make sure that TCP connections to the port are not blocked by a firewall.".
+2019-11-12 13:34:24 INFO  Main:38 - SSMS Driver Registered
+2019-11-12 13:34:39 ERROR Main:44 - Connection failed!com.microsoft.sqlserver.jdbc.SQLServerException: The TCP/IP connection to the host localhost, port 1443 has failed. Error: "Connection refused (Connection refused). Verify the connection properties. Make sure that an instance of SQL Server is running on the host and accepting TCP/IP connections at the port. Make sure that TCP connections to the port are not blocked by a firewall.".
+2019-11-12 13:52:25 INFO  Main:38 - SSMS Driver Registered
+2019-11-12 13:52:40 ERROR Main:44 - Connection failed!com.microsoft.sqlserver.jdbc.SQLServerException: The TCP/IP connection to the host localhost, port 1443 has failed. Error: "Connection refused (Connection refused). Verify the connection properties. Make sure that an instance of SQL Server is running on the host and accepting TCP/IP connections at the port. Make sure that TCP connections to the port are not blocked by a firewall.".
+2019-11-12 14:03:53 INFO  Main:38 - SSMS Driver Registered
+2019-11-12 14:04:08 ERROR Main:44 - Connection failed!com.microsoft.sqlserver.jdbc.SQLServerException: The TCP/IP connection to the host localhost, port 1443 has failed. Error: "Connection refused (Connection refused). Verify the connection properties. Make sure that an instance of SQL Server is running on the host and accepting TCP/IP connections at the port. Make sure that TCP connections to the port are not blocked by a firewall.".
+2019-11-12 14:20:46 INFO  Main:38 - SSMS Driver Registered
+2019-11-12 14:20:47 ERROR Main:44 - Connection failed!com.microsoft.sqlserver.jdbc.SQLServerException: The driver could not establish a secure connection to SQL Server by using Secure Sockets Layer (SSL) encryption. Error: "Unexpected rethrowing".
+2019-11-12 14:27:00 INFO  Main:38 - SSMS Driver Registered
+2019-11-12 14:27:15 ERROR Main:44 - Connection failed!com.microsoft.sqlserver.jdbc.SQLServerException: The TCP/IP connection to the host localhost, port 1443 has failed. Error: "Connection refused (Connection refused). Verify the connection properties. Make sure that an instance of SQL Server is running on the host and accepting TCP/IP connections at the port. Make sure that TCP connections to the port are not blocked by a firewall.".
+2019-11-12 14:58:54 INFO  Main:38 - SSMS Driver Registered
+2019-11-12 14:59:08 ERROR Main:44 - Connection failed!com.microsoft.sqlserver.jdbc.SQLServerException: The TCP/IP connection to the host localhost, port 1443 has failed. Error: "Connection refused (Connection refused). Verify the connection properties. Make sure that an instance of SQL Server is running on the host and accepting TCP/IP connections at the port. Make sure that TCP connections to the port are not blocked by a firewall.".
+2019-11-12 14:59:33 INFO  Main:38 - SSMS Driver Registered
+2019-11-12 14:59:47 ERROR Main:44 - Connection failed!com.microsoft.sqlserver.jdbc.SQLServerException: The TCP/IP connection to the host localhost, port 1550 has failed. Error: "Connection refused (Connection refused). Verify the connection properties. Make sure that an instance of SQL Server is running on the host and accepting TCP/IP connections at the port. Make sure that TCP connections to the port are not blocked by a firewall.".
+2019-11-12 15:00:08 INFO  Main:38 - SSMS Driver Registered
+2019-11-12 15:00:08 ERROR Main:44 - Connection failed!com.microsoft.sqlserver.jdbc.SQLServerException: The driver could not establish a secure connection to SQL Server by using Secure Sockets Layer (SSL) encryption. Error: "Unexpected rethrowing".
+2019-11-12 15:01:45 INFO  Main:38 - SSMS Driver Registered
+2019-11-12 15:01:45 ERROR Main:44 - Connection failed!com.microsoft.sqlserver.jdbc.SQLServerException: The driver could not establish a secure connection to SQL Server by using Secure Sockets Layer (SSL) encryption. Error: "Unexpected rethrowing".
+2019-11-12 15:22:59 INFO  Main:38 - SSMS Driver Registered
+2019-11-12 15:22:59 ERROR Main:44 - Connection failed!com.microsoft.sqlserver.jdbc.SQLServerException: The driver could not establish a secure connection to SQL Server by using Secure Sockets Layer (SSL) encryption. Error: "Unexpected rethrowing".
+2019-11-12 15:26:19 INFO  Main:38 - SSMS Driver Registered
+2019-11-12 15:26:19 ERROR Main:44 - Connection failed!com.microsoft.sqlserver.jdbc.SQLServerException: The driver could not establish a secure connection to SQL Server by using Secure Sockets Layer (SSL) encryption. Error: "Unexpected rethrowing".
+2019-11-12 15:26:37 INFO  Main:38 - SSMS Driver Registered
+2019-11-12 15:26:38 ERROR Main:44 - Connection failed!com.microsoft.sqlserver.jdbc.SQLServerException: The driver could not establish a secure connection to SQL Server by using Secure Sockets Layer (SSL) encryption. Error: "Unexpected rethrowing".
+2019-11-12 15:26:52 INFO  Main:38 - SSMS Driver Registered
+2019-11-12 15:26:52 ERROR Main:44 - Connection failed!com.microsoft.sqlserver.jdbc.SQLServerException: The driver could not establish a secure connection to SQL Server by using Secure Sockets Layer (SSL) encryption. Error: "Unexpected rethrowing".
+2019-11-12 17:07:09 INFO  Main:38 - SSMS Driver Registered
+2019-11-12 17:07:10 ERROR Main:44 - Connection failed!org.postgresql.util.PSQLException: Could not open SSL root certificate file /home/tucker/.postgresql/root.crt.
+2019-11-12 17:08:19 INFO  Main:38 - SSMS Driver Registered
+2019-11-12 17:08:19 ERROR Main:44 - Connection failed!org.postgresql.util.PSQLException: Could not open SSL root certificate file /home/tucker/.postgresql/root.crt.
+2019-11-12 17:11:34 INFO  Main:38 - SSMS Driver Registered
+2019-11-12 17:11:34 ERROR Main:44 - Connection failed!org.postgresql.util.PSQLException: FATAL: password authentication failed for user "tucker"
+2019-11-12 17:11:54 INFO  Main:38 - SSMS Driver Registered
+2019-11-12 17:11:55 ERROR Main:44 - Connection failed!org.postgresql.util.PSQLException: FATAL: password authentication failed for user "tucker"
+2019-11-13 08:55:07 INFO  Main:38 - SSMS Driver Registered
+2019-11-13 08:55:09 ERROR Main:44 - Connection failed!org.postgresql.util.PSQLException: FATAL: password authentication failed for user "tucker"
+2019-11-13 08:55:43 INFO  Main:38 - SSMS Driver Registered
+2019-11-13 08:55:43 ERROR Main:44 - Connection failed!org.postgresql.util.PSQLException: FATAL: password authentication failed for user "tucker"
+2019-11-13 09:00:26 INFO  Main:38 - SSMS Driver Registered
+2019-11-13 09:00:27 ERROR Main:44 - Connection failed!org.postgresql.util.PSQLException: FATAL: password authentication failed for user "tucker"
+2019-11-13 09:20:34 INFO  Main:38 - SSMS Driver Registered
+2019-11-13 09:20:35 ERROR Main:44 - Connection failed!org.postgresql.util.PSQLException: FATAL: database "test" does not exist
+2019-11-13 09:21:14 INFO  Main:38 - SSMS Driver Registered
+2019-11-13 09:21:15 INFO  Main:48 - Successfully connected to SSMS database
+2019-11-13 09:22:36 INFO  Main:38 - SSMS Driver Registered
+2019-11-13 09:22:37 ERROR Main:44 - Connection failed!org.postgresql.util.PSQLException: FATAL: password authentication failed for user "tucker"
+2019-11-13 09:22:48 INFO  Main:38 - SSMS Driver Registered
+2019-11-13 09:22:48 ERROR Main:44 - Connection failed!org.postgresql.util.PSQLException: FATAL: password authentication failed for user "tucker"
+2019-11-13 09:23:01 INFO  Main:38 - SSMS Driver Registered
+2019-11-13 09:23:01 ERROR Main:44 - Connection failed!org.postgresql.util.PSQLException: FATAL: password authentication failed for user "tucker"
+2019-11-13 09:23:19 INFO  Main:38 - SSMS Driver Registered
+2019-11-13 09:23:20 INFO  Main:48 - Successfully connected to SSMS database
