@@ -6,7 +6,7 @@ import com.astontech.bo.interfaces.IFeelings;
 import com.astontech.bo.interfaces.ILocation;
 import com.astontech.bo.interfaces.Site;
 import com.astontech.dao.PersonDAO;
-import com.astontech.dao.mysql.PersonDAOImpl;
+import com.astontech.dao.mysql.*;
 import common.helpers.MathHelper;
 import org.apache.log4j.Logger;
 
@@ -20,9 +20,102 @@ public class Main {
     final static Logger logger = Logger.getLogger(Main.class);
 
     public static void main(String[] args) {
-    DatabaseConnectionLab();
+    DAOLab1();
 
     }
+
+    private static void DAOLab1(){
+        //region CREATE MENU
+        EmployeeDAO employeeDAO = new EmployeeDAOImpl();
+        List<Employee> employeeList = employeeDAO.getEmployeeList();
+
+        System.out.println("++++++++++++++++++++++++++++++");
+        System.out.println("HUMAN RESOURCES");
+        for(Employee employee : employeeList){
+            System.out.println(employee.getPersonId() + ")" + employee.getFirstName() + ", " + employee.getLastName() + ", " + employee.getHireDate());
+        }
+        System.out.println("++++++++++++++++++++++++++++++");
+
+        PhoneDAO phoneDAO = new PhoneDAOImpl();
+        List<Phone> phoneList = phoneDAO.getPhoneList();
+
+        System.out.println("=============================");
+        System.out.println("CAN I GET YO NUMBAH");
+        for(Phone phone : phoneList){
+            System.out.println(phone.getPhoneId() + ": :" + phone.getPhoneNumber());
+        }
+        System.out.println("=============================");
+
+        EmailDAO emailDAO = new EmailDAOImpl();
+        List<Email> emailList = emailDAO.getEmailList();
+
+        System.out.println("/////////////////////////////////");
+        System.out.println("YOU ARE NOW IN EMAIL JAIL");
+        for(Email email : emailList){
+            System.out.println(email.getEmailId() + ": :" + email.getEmailAddress());
+        }
+        System.out.println("/////////////////////////////////");
+
+        VehicleDAO vehicleDAO = new VehicleDAOImpl();
+        List<Vehicle> vehicleList = vehicleDAO.getVehicleList();
+
+        System.out.println("%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%");
+        System.out.println("YOUR VEHICLE HAS BEEN RECORDED CITIZEN");
+        for(Vehicle vehicle : vehicleList){
+            System.out.println(vehicle.getVehicleId() + ": : " + vehicle.getLicensePlate() + "VIN # is " + vehicle.getVin());
+        }
+        System.out.println("%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%");
+
+        VehicleMakeDAO vehicleMakeDAO = new VehicleMakeDAOImpl();
+        List<VehicleMake> vehicleMakeList = vehicleMakeDAO.getVehicleMakeList();
+
+        System.out.println("***************************************");
+        System.out.println("VEHICLE MAKES");
+        for(VehicleMake vehicleMake : vehicleMakeList){
+            System.out.println(vehicleMake.getVehicleMakeId() + ": : " + vehicleMake.getVehicleMakeName());
+        }
+        System.out.println("***************************************");
+
+        VehicleModelDAO vehicleModelDAO = new VehicleModelDAOImpl();
+        List<VehicleModel> vehicleModelList = vehicleModelDAO.getVehicleModelList();
+        System.out.println("^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^");
+        System.out.println("VEHICLE MODELS");
+        for(VehicleModel vehicleModel : vehicleModelList){
+            System.out.println(vehicleModel.getVehicleModelId() + ": : " + vehicleModel.getVehicleModelName());
+        }
+        System.out.println("^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^");
+
+    }
+    private static void LessonDAO(){
+        //region CREATE MENU
+        PersonDAO personDAO = new PersonDAOImpl();
+        List<Person> personList = personDAO.getPersonList();
+
+        System.out.println("==============================");
+
+        for(Person person : personList){
+            System.out.println(person.getPersonId() + ") " + person.getLastName() + ", " + person.getFirstName());
+        }
+        System.out.println("==============================");
+
+        //endregion
+
+        //region PROMPT USER
+        Scanner reader = new Scanner(System.in);
+        System.out.println("Please Select a Person from list: ");
+        String personId = reader.nextLine();
+        //endregion
+
+        //region GET PERSON DETAILS
+        Person personDetail = personDAO.getPersonById(Integer.parseInt(personId));
+
+        System.out.println("-----PERSON DETAILS -----");
+        System.out.println("Full Name: " + personDetail.getFirstName() + " " + personDetail.getLastName());
+   //     System.out.println("DOB: " + personDetail.getBirthDate());
+  //      System.out.println("SSN: " + personDetail.getSSN());
+
+        //endregion
+    };
     private static Connection DatabaseConnectionLab(){
         String dbHost = "localhost";
         String dbName = "connlab";
@@ -52,38 +145,6 @@ public class Main {
             return null;
         }
     }
-
-
-    private static void LessonDAO(){
-        //region CREATE MENU
-        PersonDAO personDAO = new PersonDAOImpl();
-        List<Person> personList = personDAO.getPersonList();
-
-        System.out.println("==============================");
-
-        for(Person person : personList){
-            System.out.println(person.getPersonId() + ") " + person.getLastName() + ", " + person.getFirstName());
-        }
-        System.out.println("==============================");
-
-        //endregion
-
-        //region PROMPT USER
-        Scanner reader = new Scanner(System.in);
-        System.out.println("Please Select a Person from list: ");
-        String personId = reader.nextLine();
-        //endregion
-
-        //region GET PERSON DETAILS
-        Person personDetail = personDAO.getPersonById(Integer.parseInt(personId));
-
-        System.out.println("-----PERSON DETAILS -----");
-        System.out.println("Full Name: " + personDetail.getFirstName() + " " + personDetail.getLastName());
-        System.out.println("DOB: " + personDetail.getBirthDate());
-        System.out.println("SSN: " + personDetail.getSSN());
-
-        //endregion
-    };
     private static void LessonExecQuery(){
         Connection conn = LessonDBConnection();
         try {
@@ -343,13 +404,13 @@ public class Main {
         System.out.println(myEmail.getEmailAddress() + " Type: " + myEmail.getEmailType());
 
         Employee myEmployee = new Employee();
-        myEmployee.getEmails().add(new Email("test@test.com"));
-        myEmployee.getEmails().add(new Email("tuck@test.com"));
-        myEmployee.getEmails().add(new Email("dan@test.com"));
+//        myEmployee.getEmails().add(new Email("test@test.com"));
+//        myEmployee.getEmails().add(new Email("tuck@test.com"));
+//        myEmployee.getEmails().add(new Email("dan@test.com"));
 
-        for(Email email : myEmployee.getEmails()){
-            System.out.println(email.getEmailAddress());
-        }
+//        for(Email email : myEmployee.getEmails()){
+//            System.out.println(email.getEmailAddress());
+//        }
     }
     private static void OOPPrincipalsLab02(){
         Phone tuckPhone = new Phone();
@@ -476,9 +537,9 @@ public class Main {
         Person myFirstPerson = new Person();
         myFirstPerson.setFirstName("Tucker");
         myFirstPerson.setLastName("Nemcek");
-        myFirstPerson.setTitle("Mr.");
+     //   myFirstPerson.setTitle("Mr.");
 
-        System.out.print(myFirstPerson.getTitle());
+     //   System.out.print(myFirstPerson.getTitle());
         System.out.print(" ");
         System.out.print(myFirstPerson.getFirstName());
         System.out.print(" ");
@@ -487,9 +548,9 @@ public class Main {
         Person mySecondPerson = new Person();
         mySecondPerson.setFirstName("Bipin");
         mySecondPerson.setLastName("Butala");
-        mySecondPerson.setTitle("Mr.");
+    //    mySecondPerson.setTitle("Mr.");
 
-        System.out.print(mySecondPerson.getTitle());
+      //  System.out.print(mySecondPerson.getTitle());
         System.out.print(" ");
         System.out.print(mySecondPerson.getFirstName());
         System.out.print(" ");

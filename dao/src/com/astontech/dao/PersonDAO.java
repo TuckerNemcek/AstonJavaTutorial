@@ -5,7 +5,6 @@ import com.astontech.bo.Person;
 import java.util.List;
 
 public interface PersonDAO {
-
     //notes:    GET METHODS
     public Person getPersonById(int personId);
     public List<Person> getPersonList();

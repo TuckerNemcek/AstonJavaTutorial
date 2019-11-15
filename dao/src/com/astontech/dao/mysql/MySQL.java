@@ -15,7 +15,14 @@ public abstract class MySQL {
         protected static String procBod = "true";
 
         protected static Connection connection = null;
+
         final static Logger logger = Logger.getLogger(MySQL.class);
+
+        protected static final int GET_BY_ID = 10;
+        protected static final int GET_COLLECTION = 20;
+        protected static final int INSERT = 10;
+        protected static final int UPDATE = 20;
+        protected static final int DELETE = 30;
 
         protected static void Connect(){
             try {
@@ -25,7 +32,6 @@ public abstract class MySQL {
             }
 
             logger.info("MySQL Driver Registered");
-            Connection connection = null;
 
             try{
                 connection = DriverManager.getConnection("jdbc:mysql://" +dbHost+":3306/" +dbName +"?useSSL=" + useSSL + "&noAccessToProcedureBodies=" + procBod, dbUser, dbPass);

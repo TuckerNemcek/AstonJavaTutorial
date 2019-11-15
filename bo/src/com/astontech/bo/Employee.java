@@ -4,7 +4,7 @@ import java.util.Date;
 
 public class Employee extends Person {
     // PARAMETER
-    private Employee employee;
+    private int employeeId;
     private Date HireDate;
     private Date TermDate;
 
@@ -35,12 +35,13 @@ public class Employee extends Person {
     //GETTERS / SETTERS
 
 
-    public Employee getEmployee() {
-        return employee;
+
+    public int getEmployeeId() {
+        return employeeId;
     }
 
-    public void setEmployee(Employee employee) {
-        this.employee = employee;
+    public void setEmployeeId(int employeeId) {
+        this.employeeId = employeeId;
     }
 
     public void setHireDate(Date hireDate){
