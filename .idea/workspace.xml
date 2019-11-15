@@ -162,7 +162,7 @@
       <workItem from="1573656803711" duration="2769000" />
       <workItem from="1573660161812" duration="67000" />
       <workItem from="1573660267506" duration="7000" />
-      <workItem from="1573662358953" duration="36593000" />
+      <workItem from="1573662358953" duration="36847000" />
     </task>
     <task id="LOCAL-00001" summary="test commit">
       <created>1572976307910</created>
@@ -198,14 +198,9 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/dao/src/com/astontech/dao/mysql/PhoneDAOImpl.java</url>
-          <line>36</line>
-          <option name="timeStamp" value="17" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/console/src/com/astontech/console/Main.java</url>
-          <line>82</line>
-          <option name="timeStamp" value="18" />
+          <url>file://$PROJECT_DIR$/dao/src/com/astontech/dao/mysql/VehicleModelDAOImpl.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="19" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
