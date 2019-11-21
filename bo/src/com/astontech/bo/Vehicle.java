@@ -9,19 +9,19 @@ public class Vehicle extends BaseBo implements IFeelings, Comparable {
     // PARAMETERS
 
     private int VehicleId;
-    private String year;
+    private Date year;
     private String LicensePlate;
     private String Vin;
     private String Color;
-    private char IsPurchase;
+    private Boolean IsPurchase;
     private int PurchasePrice;
-    private String PurchaseDate;
+    private Date PurchaseDate;
     private VehicleModel vehicleModel;
     private VehicleStatus vehicleStatus;
 
     //CONSTRUCTORS
     public Vehicle(){}
-    public Vehicle(int vehicleId, String year, String licensePlate, String vin, String color, char isPurchase, int purchasePrice, String purchaseDate, VehicleModel vehicleModel) {
+    public Vehicle(int vehicleId, Date year, String licensePlate, String vin, String color, Boolean isPurchase, int purchasePrice, Date purchaseDate, VehicleModel vehicleModel) {
         this.setVehicleId(vehicleId);
         this.setYear(year);
         this.setLicensePlate(licensePlate);
@@ -51,11 +51,11 @@ public class Vehicle extends BaseBo implements IFeelings, Comparable {
         VehicleId = vehicleId;
     }
 
-    public String getYear() {
+    public Date getYear() {
         return year;
     }
 
-    public void setYear(String year) {
+    public void setYear(Date year) {
         this.year = year;
     }
 
@@ -83,11 +83,11 @@ public class Vehicle extends BaseBo implements IFeelings, Comparable {
         Color = color;
     }
 
-    public char getIsPurchase() {
+    public Boolean getIsPurchase() {
         return IsPurchase;
     }
 
-    public void setIsPurchase(char isPurchase) {
+    public void setIsPurchase(Boolean isPurchase) {
         IsPurchase = isPurchase;
     }
 
@@ -99,11 +99,11 @@ public class Vehicle extends BaseBo implements IFeelings, Comparable {
         PurchasePrice = purchasePrice;
     }
 
-    public String getPurchaseDate() {
+    public Date getPurchaseDate() {
         return PurchaseDate;
     }
 
-    public void setPurchaseDate(String purchaseDate) {
+    public void setPurchaseDate(Date purchaseDate) {
         PurchaseDate = purchaseDate;
     }
 

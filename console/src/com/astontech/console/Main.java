@@ -7,9 +7,12 @@ import com.astontech.bo.interfaces.ILocation;
 import com.astontech.bo.interfaces.Site;
 import com.astontech.dao.PersonDAO;
 import com.astontech.dao.mysql.*;
+import common.helpers.DateHelper;
 import common.helpers.MathHelper;
 import org.apache.log4j.Logger;
 
+import java.lang.reflect.Field;
+import java.lang.reflect.Method;
 import java.sql.*;
 import java.util.*;
 import java.util.Date;
@@ -20,10 +23,240 @@ public class Main {
     final static Logger logger = Logger.getLogger(Main.class);
 
     public static void main(String[] args) {
-    DAOLab1();
+    LessonReflection();
 
     }
 
+    private static void LessonReflection(){
+
+        Class obj = DateHelper.class;
+
+        logger.info("Full Name: " + obj.getName());
+        logger.info("Simple Name: " + obj.getSimpleName());
+        for(Field field : obj.getDeclaredFields()){
+            logger.info("Field: " + field.getName() + " - Type: " + field.getType());
+        }
+        for(Method method : obj.getDeclaredMethods()) {
+            logger.info("Method: " + method.getName());
+        }
+    }
+
+    private static void DAOLab2(){
+//        Email email = new Email();
+//        EntityType entityType = new EntityType();
+//        entityType.setEntityTypeId(1);
+//        email.setEmailAddress("throwaway765@gmail.com");
+//        email.setEmployeeId(2);
+//        email.setEmailType(entityType);
+//        System.out.println(email.toString());
+
+//        EmailDAO emailDAO = new EmailDAOImpl();
+//        int id = emailDAO.insertEmail(email);
+//        logger.info("New email record inserted. ID = " + id);
+
+//        EmailDAO emailDAO = new EmailDAOImpl();
+//        Email myEmail = emailDAO.getEmailById(10);
+//        System.out.println(myEmail.toString());
+//        myEmail.setEmailAddress("realemailbloploop");
+
+//        if(emailDAO.updateEmail(myEmail)){
+//            logger.info("EMAIL UPDATED");
+//        }else{
+//            logger.info("email not updated try again");
+//        }
+
+//        EmailDAO emailDAO = new EmailDAOImpl();
+//        if (emailDAO.deleteEmail(11)){
+//            logger.info("EMAIL DELETED");
+//        }
+//        else{
+//            logger.info("You will have to try harder than that!");
+//        }
+
+    //    EmployeeDAO employeeDAO = new EmployeeDAOImpl();
+
+     //   Employee employee = employeeDAO.getEmployeeById(2);
+  //      logger.info("Employee is " +employee.getFirstName()+ " " + employee.getLastName() + " ," + employee.getHireDate() );
+
+//        Employee employee = new Employee();
+//        employee.setEmployeeId(6);
+//        employee.setHireDate(new Date());
+//        employee.setTermDate(new Date());
+//        employee.setPersonId(7);
+//        System.out.println(employee.toString());
+//
+        int id = employeeDAO.insertEmployee(employee);
+        System.out.println("New employee ID is " + id);
+
+//        if(employeeDAO.deleteEmployee(102)){
+//            logger.info("EMPLOYEE TERMINATED");
+//        }
+//        else{
+//            logger.info("He'll be back");
+//        }
+
+//        PhoneDAO phoneDAO = new PhoneDAOImpl();
+
+//        Phone phone = phoneDAO.getPhoneById(2);
+//        logger.info("Phone is " + phone.getPhoneNumber());
+//        Phone phone = new Phone();
+//        phone.setPhoneId(1);
+//        phone.setEntityTypeId(2);
+//        phone.setClientId(1);
+//        phone.setPhoneNumber(895567);
+//        phone.setAreaCode(712);
+//        phone.setPersonId(1);
+//
+//        int id = phoneDAO.insertPhone(phone);
+//        logger.info("PHONE RECORD INSERTED");
+
+//        phone.setEntityTypeId(2);
+//        phone.setPersonId(1);
+//        phone.setAreaCode(321);
+//        phone.setPhoneNumber(908985);
+//        phone.setClientId(1);
+//        phone.setPhoneId(1);
+//
+//        if(phoneDAO.updatePhone(phone)){
+//            logger.info(phone.getPersonId() + "UPDATED SUCCESSFULLY");
+//        }else{
+//            logger.info(("PHONELIST NOT UPDATED TRY AGAIN"));
+//        }
+
+//        if(phoneDAO.deletePhone(34)){
+//            logger.info("PHONE RECORD TERMINATED, GOODBYE");
+//        }
+//        else{
+//            logger.info("you missed");
+//        }
+
+
+
+//        VehicleMakeDAO vehicleMakeDAO = new VehicleMakeDAOImpl();
+//        VehicleMake vehicleMake = new VehicleMake();
+//        vehicleMake.setVehicleMakeId(9);
+//        vehicleMake.setVehicleMakeName("Optimus Prime");
+//        vehicleMake.setCreateDate(new Date (1999-11-11));
+
+//        int id = vehicleMakeDAO.insertVehicleMake(vehicleMake);
+//        logger.info("DID IT WORK?");
+
+//        if (vehicleMakeDAO.updateVehicleMake(vehicleMake)){
+//            logger.info("RECORD UPDATED");
+//        }
+//        else{
+//            logger.info("whoops");
+//        }
+
+//        if(vehicleMakeDAO.deleteVehicleMake(10)){
+//            logger.info("VEHICLE DELETED");
+//        }
+//        else{
+//            logger.info("TOO WEAK TO WEAK!");
+//        }
+//        VehicleMake vehicleMake = new VehicleMake();
+//        vehicleMake.setCreateDate(new Date (2010-04-11));
+//        vehicleMake.setVehicleMakeId(4);
+//
+//        VehicleModelDAO vehicleModelDAO = new VehicleModelDAOImpl();
+//        VehicleModel vehicleModel = new VehicleModel();
+//        vehicleModel.setVehicleModelName("Decepticon");
+//        vehicleModel.setVehicleModelId(12);
+//        vehicleModel.setVehicleMake(vehicleMake);
+
+//        int id = vehicleModelDAO.insertVehicleModel(vehicleModel);
+//        logger.info("DID IT WORK?????????");
+
+//        if(vehicleModelDAO.updateVehicleModel(vehicleModel)){
+//            logger.info("YOU DID IT HUGE SUCCESS");
+//        }
+//        else{
+//            logger.info("you fool. you absolute cretin");
+//        }
+
+//        if(vehicleModelDAO.deleteVehicleModel(14)){
+//            logger.info("VEE HICKLE DELETED");
+//        }
+//        else{
+//            logger.info("insert quarter to try again");
+//        }
+
+        // +++++++++++++++++++++++++++++++++++++++++++++++++
+//        VehicleDAO vehicleDAO = new VehicleDAOImpl();
+//        Vehicle vehicle1 = new Vehicle();
+//        vehicle1.setVehicleId(20);
+//        vehicle1.setYear( new Date(1999-01-01));
+//        vehicle1.setLicensePlate("187COP");
+//        vehicle1.setVin("PPPPPPPPPPPPPP");
+//        vehicle1.setColor("yellow");
+//        vehicle1.setIsPurchase(false);
+//        vehicle1.setPurchasePrice(99999);
+//        vehicle1.setPurchaseDate( new Date());
+//
+//        VehicleModel vehicleModel = new VehicleModel();
+//        vehicleModel.setVehicleModelId(4);
+//
+//        vehicle1.setVehicleModel(vehicleModel);
+
+//        int id = vehicleDAO.insertVehicle(vehicle1);
+//        logger.info("did it work?");
+
+        // THE CALL IS WORKING BUT MUCH OF THE DATA IS MISSING IN THE DB LOOK INTO IT
+        //vehicle model is wrong, license plate is null, purchase price is missing wtf?
+        // ++++++++++++++++++++++++++++++++++++++++++++++
+
+//        if(vehicleDAO.updateVehicle(vehicle1)){
+//            logger.info("TRANSFORM AND ROLL OUT");
+//        }
+//        else{
+//            logger.info("oops");
+//        }
+
+//        if(vehicleDAO.deleteVehicle(25)){
+//            logger.info("VEHICLE DELETED");
+//        }
+//        else{
+//            logger.info("oops");
+//        }
+
+    }
+
+    private static void LessonDAODelete() {
+        PersonDAO personDAO = new PersonDAOImpl();
+
+       if  (personDAO.deletePerson(9)){
+           logger.info("Person Deleted Successfully");
+       }
+       else
+           logger.info("Person Delete Failed!");
+    }
+    private static void LessonDAOUpdate(){
+        PersonDAO personDAO = new PersonDAOImpl();
+
+        Person person = personDAO.getPersonById(7);
+        person.setLastName("Marsh");
+
+        if(personDAO.updatePerson(person)){
+            logger.info("Person Updated Successfully");
+        }
+        else{
+            logger.info("Person Update Failed");
+        }
+    }
+    private static void LessonDAOInsert(){
+        Person person = new Person();
+        person.setFirstName("Mike");
+        person.setMiddleName("j");
+        person.setLastName("Haggar");
+        person.setBirthDate(new Date());
+        person.setSocialSecurityNumber("fff-ff-ffff");
+
+        PersonDAO personDAO = new PersonDAOImpl();
+        int id = personDAO.insertPerson(person);
+
+        logger.info("New Person Record Inserted. ID = " + id);
+
+    }
     private static void DAOLab1(){
         //region CREATE MENU
         EmployeeDAO employeeDAO = new EmployeeDAOImpl();
@@ -331,47 +564,47 @@ public class Main {
         VehicleMake jeep = new VehicleMake();
         jeep.setVehicleMakeName("Jeep");
         jeep.setVehicleMakeId(1);
-        jeep.setCreateDate("2011");
-
-        VehicleMake tesla = new VehicleMake(2,"Tesla", "01-01-2010");
-        VehicleMake bmw = new VehicleMake(3, "BMW", "01-01-2019");
-        VehicleMake buick = new VehicleMake(4, "Buick", "01-01-2017");
+//        jeep.setCreateDate("2011");
+//
+//        VehicleMake tesla = new VehicleMake(2,"Tesla", "01-01-2010");
+//        VehicleMake bmw = new VehicleMake(3, "BMW", "01-01-2019");
+//        VehicleMake buick = new VehicleMake(4, "Buick", "01-01-2017");
 
         VehicleModel liberty = new VehicleModel();
         liberty.setVehicleModelId(1);
         liberty.setVehicleModelName("Liberty");
         liberty.setVehicleMake(jeep);
 
-        VehicleModel s = new VehicleModel(2, "S", tesla);
-        VehicleModel x6 = new VehicleModel(3, "X6",bmw );
-        VehicleModel regal = new VehicleModel(4, "Regal", buick);
+//        VehicleModel s = new VehicleModel(2, "S", tesla);
+//        VehicleModel x6 = new VehicleModel(3, "X6",bmw );
+//        VehicleModel regal = new VehicleModel(4, "Regal", buick);
 
         Vehicle myJeep = new Vehicle();
         myJeep.setVehicleId(1);
-        myJeep.setYear("2011");
+        myJeep.setYear(new Date(2025-11-25));
         myJeep.setLicensePlate("938-AAE");
         myJeep.setVin("1234567890HE12345");
         myJeep.setColor("Black");
-        myJeep.setIsPurchase('y');
+        myJeep.setIsPurchase(true);
         myJeep.setPurchasePrice(10000);
-        myJeep.setPurchaseDate("10-01-2019");
+        myJeep.setPurchaseDate(new Date(2025-11-25));
         myJeep.setVehicleModel(liberty);
 
-        Vehicle theTesla = new Vehicle(2, "2015", "542-BBQ", "0987654321QW12345", "Silver", 'n', 50000, "Nov 29th, 2025", s);
-        Vehicle theBMW = new Vehicle(3, "2019","I<3 NW Yk", "102878203982030EV9", "Gold", 'n', 100000, "Nov 29th 2010", x6);
-        Vehicle battleBuick = new Vehicle(4, "1995", "243-BPN", "203287p739803RT9", "Champaigne", 'y', 0, "Oct 3rd 2016", regal );
-        //git branch test
-        vehicleList.add(battleBuick);
-        vehicleList.add(myJeep);
-        vehicleList.add(theTesla);
-        vehicleList.add(theBMW);
+//        Vehicle theTesla = new Vehicle(2, new Date(2025-11-25), "542-BBQ", "0987654321QW12345", "Silver", 'n', 50000,  new Date(2025-11-25), s);
+//        Vehicle theBMW = new Vehicle(3, new Date(2025-11-25),"I<3 NW Yk", "102878203982030EV9", "Gold", 'n', 100000, new Date(2025-11-25), x6);
+//        Vehicle battleBuick = new Vehicle(4, new Date(2025-11-25), "243-BPN", "203287p739803RT9", "Champaigne", 'y', 0, new Date(2025-11-25), regal );
+//        //git branch test
+//        vehicleList.add(battleBuick);
+//        vehicleList.add(myJeep);
+//        vehicleList.add(theTesla);
+//        vehicleList.add(theBMW);
 
-        System.out.println(theBMW.mood());
-
-        IFeelings bmwFeelings = theBMW;
-        System.out.println(bmwFeelings.passion());
-
-        Lab05Part5(battleBuick);
+//        System.out.println(theBMW.mood());
+//
+//        IFeelings bmwFeelings = theBMW;
+//        System.out.println(bmwFeelings.passion());
+//
+//        Lab05Part5(battleBuick);
 
         for(Vehicle v : vehicleList){
             System.out.println(" " +v.getVehicleId() +" The " + v.getVehicleModel().getVehicleMake().getVehicleMakeName() +" " +v.getVehicleModel().getVehicleModelName() +" " + v.getColor() +" goes "+v.getVehicleModel().getVehicleMake().CarNoise() );

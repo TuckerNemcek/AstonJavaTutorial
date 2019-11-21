@@ -6,11 +6,11 @@ public class VehicleMake extends BaseBo {
     //PARAMETERS
     private int VehicleMakeId;
     private String VehicleMakeName;
-    private String CreateDate;
+    private Date CreateDate;
 
     //CONSTRUCTORS
     public VehicleMake(){}
-    public VehicleMake(int vehicleMakeId, String vehicleMakeName, String createDate) {
+    public VehicleMake(int vehicleMakeId, String vehicleMakeName, Date createDate) {
         this.setVehicleMakeId(vehicleMakeId);
         this.setVehicleMakeName(vehicleMakeName);
         this.setCreateDate(createDate);
@@ -33,11 +33,11 @@ public class VehicleMake extends BaseBo {
         VehicleMakeName = vehicleMakeName;
     }
 
-    public String getCreateDate() {
+    public Date getCreateDate() {
         return CreateDate;
     }
 
-    public void setCreateDate(String createDate) {
+    public void setCreateDate(Date createDate) {
         CreateDate = createDate;
     }
 

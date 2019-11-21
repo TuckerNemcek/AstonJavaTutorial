@@ -10,30 +10,39 @@ import java.util.List;
 public class Person extends BaseBo implements Comparable {
     //region PROPERTIES
 
-    // PersonId
     private int PersonId;
-    //Title
-  //  private String Title;
-    //First Name
     private String FirstName;
-    //MiddleName
-//    private String MiddleName;
-    //Last Name
+    private String MiddleName;
     private String LastName;
-    //DisplayFirstName
-//    private String DisplayFirstName;
-    //Gender
-//    private String Gender;
-    //Date
-//    private Date BirthDate;
-    //SSN
-//    private String SSN;
+    private Date BirthDate;
+    private String SocialSecurityNumber;
 
-//    private List<Email> Emails;
-//
-//    private List<Address> Adresses;
 
     //endregion
+
+    public String getMiddleName() {
+        return MiddleName;
+    }
+
+    public void setMiddleName(String middleName) {
+        MiddleName = middleName;
+    }
+
+    public Date getBirthDate() {
+        return BirthDate;
+    }
+
+    public void setBirthDate(Date birthDate) {
+        BirthDate = birthDate;
+    }
+
+    public String getSocialSecurityNumber() {
+        return SocialSecurityNumber;
+    }
+
+    public void setSocialSecurityNumber(String socialSecurityNumber) {
+        SocialSecurityNumber = socialSecurityNumber;
+    }
 
     //region CONSTRUCTORS
 

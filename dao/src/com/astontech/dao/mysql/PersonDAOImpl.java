@@ -2,20 +2,23 @@ package com.astontech.dao.mysql;
 
 import com.astontech.bo.Person;
 import com.astontech.dao.PersonDAO;
+import common.helpers.DateHelper;
 
 import java.sql.CallableStatement;
+import java.sql.Date;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
 public class PersonDAOImpl extends MySQL implements PersonDAO {
+
     @Override
     public Person getPersonById(int personId) {
         Connect();
         Person person = null;  // non instantiated because if no records returned we dont want to use memory
         try {
-            String sp = "{call GetPerson(?,?)}";
+            String sp = "{call ExecEmployee(?,?,?,?,?)}"
             CallableStatement cStmt = connection.prepareCall(sp);
             cStmt.setInt(1,GET_BY_ID);
             cStmt.setInt(2, personId);
@@ -54,17 +57,89 @@ public class PersonDAOImpl extends MySQL implements PersonDAO {
 
     @Override
     public int insertPerson(Person person) {
-        return 0;
+        Connect();
+        int id =0;
+        try {
+            //call ExecPerson(10, PersonId, 'PersonId', FirstName, MiddleName, LastName, BirthDate, SSN));
+            String sp = "{call ExecPerson(?, ? , ?, ?, ?, ?, ?)}";
+            CallableStatement cStmt = connection.prepareCall(sp);
+
+            cStmt.setInt(1, INSERT);
+            cStmt.setInt(2, 0);
+            cStmt.setString(3, person.getFirstName());
+            cStmt.setString(4, person.getMiddleName());
+            cStmt.setString(5, person.getLastName());
+            cStmt.setDate(6, DateHelper.utilDateToSqlDate(person.getBirthDate()));
+            cStmt.setString(7, person.getSocialSecurityNumber());
+
+            ResultSet rs = cStmt.executeQuery();
+            if(rs.next()){
+                id = rs.getInt(1);
+            }
+
+        } catch (SQLException sqlEx){
+            logger.error(sqlEx);
+        }
+
+        return id;
     }
 
     @Override
     public boolean updatePerson(Person person) {
-        return false;
+        Connect();
+        int id =0;
+        try {
+            //call ExecPerson(10, PersonId, 'PersonId', FirstName, MiddleName, LastName, BirthDate, SSN));
+            String sp = "{call ExecPerson(?, ? , ?, ?, ?, ?, ?)}";
+            CallableStatement cStmt = connection.prepareCall(sp);
+
+            cStmt.setInt(1, UPDATE);                //changed from insert
+            cStmt.setInt(2, person.getPersonId());  //changed from insert method
+            cStmt.setString(3, person.getFirstName());
+            cStmt.setString(4, person.getMiddleName());
+            cStmt.setString(5, person.getLastName());
+            cStmt.setDate(6, DateHelper.utilDateToSqlDate(person.getBirthDate()));
+            cStmt.setString(7, person.getSocialSecurityNumber());
+
+            ResultSet rs = cStmt.executeQuery();
+            if(rs.next()){
+                id = rs.getInt(1);
+            }
+
+        } catch (SQLException sqlEx){
+            logger.error(sqlEx);
+        }
+
+        return id > 0;
     }
 
     @Override
     public boolean deletePerson(int personId) {
-        return false;
+        Connect();
+        int id =0;
+        try {
+            //call ExecPerson(10, PersonId, 'PersonId', FirstName, MiddleName, LastName, BirthDate, SSN));
+            String sp = "{call ExecPerson(?, ? , ?, ?, ?, ?, ?)}";
+            CallableStatement cStmt = connection.prepareCall(sp);
+
+            cStmt.setInt(1, DELETE);                //changed from insert
+            cStmt.setInt(2, personId);
+            cStmt.setString(3, "");
+            cStmt.setString(4, "");
+            cStmt.setString(5, "");
+            cStmt.setDate(6, new java.sql.Date(0));
+            cStmt.setString(7, "");
+
+            ResultSet rs = cStmt.executeQuery();
+            if(rs.next()){
+                id = rs.getInt(1);
+            }
+
+        } catch (SQLException sqlEx){
+            logger.error(sqlEx);
+        }
+
+        return id > 0;
     }
 
     private static Person HydrateObject(ResultSet rs) throws  SQLException{
@@ -80,9 +155,10 @@ public class PersonDAOImpl extends MySQL implements PersonDAO {
         Person person = new Person();
         person.setPersonId(rs.getInt(1));
         person.setFirstName(rs.getString(2));
-     //   person.setMiddleName(rs.getString(3));
-        person.setLastName(rs.getString(3));
-//        person.setSSN(rs.getString(6));
+        person.setMiddleName(rs.getString(3));
+        person.setLastName(rs.getString(4));
+        person.setBirthDate(rs.getDate(5));
+        person.setSocialSecurityNumber(rs.getString(6));
 
         return person;
     }

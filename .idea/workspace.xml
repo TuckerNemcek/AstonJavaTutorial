@@ -2,33 +2,45 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3475e155-34db-4cc0-8daa-2e3b6219760c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/dao/src/com/astontech/dao/mysql/EmailDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dao/src/com/astontech/dao/mysql/EmailDAOImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dao/src/com/astontech/dao/mysql/EmployeeDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dao/src/com/astontech/dao/mysql/EmployeeDAOImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dao/src/com/astontech/dao/mysql/PhoneDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dao/src/com/astontech/dao/mysql/PhoneDAOImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dao/src/com/astontech/dao/mysql/VehicleDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dao/src/com/astontech/dao/mysql/VehicleDAOImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dao/src/com/astontech/dao/mysql/VehicleMakeDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dao/src/com/astontech/dao/mysql/VehicleMakeDAOImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dao/src/com/astontech/dao/mysql/VehicleModelDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dao/src/com/astontech/dao/mysql/VehicleModelDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/common/helpers/DateHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/com/astontech/dao/mysql/Procedures.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/C:\log4j-application.log" beforeDir="false" afterPath="$PROJECT_DIR$/C:\log4j-application.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bo/src/com/astontech/bo/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/bo/src/com/astontech/bo/Employee.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bo/src/com/astontech/bo/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/bo/src/com/astontech/bo/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bo/src/com/astontech/bo/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/bo/src/com/astontech/bo/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bo/src/com/astontech/bo/VehicleMake.java" beforeDir="false" afterPath="$PROJECT_DIR$/bo/src/com/astontech/bo/VehicleMake.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/console/src/com/astontech/console/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/console/src/com/astontech/console/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dao/src/com/astontech/dao/PersonDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/dao/src/com/astontech/dao/PersonDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dao/src/com/astontech/dao/mysql/MySQL.java" beforeDir="false" afterPath="$PROJECT_DIR$/dao/src/com/astontech/dao/mysql/MySQL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dao/dao.iml" beforeDir="false" afterPath="$PROJECT_DIR$/dao/dao.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dao/src/com/astontech/dao/mysql/EmailDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/dao/src/com/astontech/dao/mysql/EmailDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dao/src/com/astontech/dao/mysql/EmailDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/dao/src/com/astontech/dao/mysql/EmailDAOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dao/src/com/astontech/dao/mysql/EmployeeDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/dao/src/com/astontech/dao/mysql/EmployeeDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dao/src/com/astontech/dao/mysql/EmployeeDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/dao/src/com/astontech/dao/mysql/EmployeeDAOImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dao/src/com/astontech/dao/mysql/PersonDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/dao/src/com/astontech/dao/mysql/PersonDAOImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/bo/META-INF/bo.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/bo/com/astontech/bo/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/bo/com/astontech/bo/Employee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dao/src/com/astontech/dao/mysql/PhoneDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/dao/src/com/astontech/dao/mysql/PhoneDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dao/src/com/astontech/dao/mysql/PhoneDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/dao/src/com/astontech/dao/mysql/PhoneDAOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dao/src/com/astontech/dao/mysql/VehicleDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/dao/src/com/astontech/dao/mysql/VehicleDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dao/src/com/astontech/dao/mysql/VehicleDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/dao/src/com/astontech/dao/mysql/VehicleDAOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dao/src/com/astontech/dao/mysql/VehicleMakeDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/dao/src/com/astontech/dao/mysql/VehicleMakeDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dao/src/com/astontech/dao/mysql/VehicleMakeDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/dao/src/com/astontech/dao/mysql/VehicleMakeDAOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dao/src/com/astontech/dao/mysql/VehicleModelDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/dao/src/com/astontech/dao/mysql/VehicleModelDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dao/src/com/astontech/dao/mysql/VehicleModelDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/dao/src/com/astontech/dao/mysql/VehicleModelDAOImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/bo/com/astontech/bo/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/bo/com/astontech/bo/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/console/META-INF/console.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/bo/com/astontech/bo/Vehicle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/bo/com/astontech/bo/Vehicle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/bo/com/astontech/bo/VehicleMake.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/bo/com/astontech/bo/VehicleMake.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/console/com/astontech/console/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/console/com/astontech/console/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/dao/com/astontech/dao/mysql/MySQL.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dao/com/astontech/dao/mysql/MySQL.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dao/com/astontech/dao/mysql/EmailDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dao/com/astontech/dao/mysql/EmailDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dao/com/astontech/dao/mysql/EmailDAOImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dao/com/astontech/dao/mysql/EmailDAOImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dao/com/astontech/dao/mysql/EmployeeDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dao/com/astontech/dao/mysql/EmployeeDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dao/com/astontech/dao/mysql/EmployeeDAOImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dao/com/astontech/dao/mysql/EmployeeDAOImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/dao/com/astontech/dao/mysql/PersonDAOImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dao/com/astontech/dao/mysql/PersonDAOImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dao/com/astontech/dao/mysql/PhoneDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dao/com/astontech/dao/mysql/PhoneDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dao/com/astontech/dao/mysql/PhoneDAOImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dao/com/astontech/dao/mysql/PhoneDAOImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dao/com/astontech/dao/mysql/VehicleDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dao/com/astontech/dao/mysql/VehicleDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dao/com/astontech/dao/mysql/VehicleDAOImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dao/com/astontech/dao/mysql/VehicleDAOImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dao/com/astontech/dao/mysql/VehicleMakeDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dao/com/astontech/dao/mysql/VehicleMakeDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dao/com/astontech/dao/mysql/VehicleMakeDAOImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dao/com/astontech/dao/mysql/VehicleMakeDAOImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dao/com/astontech/dao/mysql/VehicleModelDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dao/com/astontech/dao/mysql/VehicleModelDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dao/com/astontech/dao/mysql/VehicleModelDAOImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dao/com/astontech/dao/mysql/VehicleModelDAOImpl.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -77,7 +89,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="DBConnectionLab" />
+        <entry key="$PROJECT_DIR$" value="DAO_LAB_01" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -105,7 +117,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.propCompiler" />
@@ -162,7 +174,8 @@
       <workItem from="1573656803711" duration="2769000" />
       <workItem from="1573660161812" duration="67000" />
       <workItem from="1573660267506" duration="7000" />
-      <workItem from="1573662358953" duration="36847000" />
+      <workItem from="1573662358953" duration="44342000" />
+      <workItem from="1573854088874" duration="81182000" />
     </task>
     <task id="LOCAL-00001" summary="test commit">
       <created>1572976307910</created>
@@ -195,15 +208,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="test commit" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/dao/src/com/astontech/dao/mysql/VehicleModelDAOImpl.java</url>
-          <line>22</line>
-          <option name="timeStamp" value="19" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
         <watch expression="myStringArray" />

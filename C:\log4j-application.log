@@ -636,3 +636,410 @@
 2019-11-15 09:12:10 INFO  MySQL:42 - Successfully connected to MySQL database
 2019-11-15 09:12:10 INFO  MySQL:34 - MySQL Driver Registered
 2019-11-15 09:12:10 INFO  MySQL:42 - Successfully connected to MySQL database
+2019-11-15 14:52:13 INFO  MySQL:34 - MySQL Driver Registered
+2019-11-15 14:52:14 INFO  MySQL:42 - Successfully connected to MySQL database
+2019-11-15 14:52:14 INFO  MySQL:34 - MySQL Driver Registered
+2019-11-15 14:52:14 INFO  MySQL:42 - Successfully connected to MySQL database
+2019-11-15 14:52:14 INFO  MySQL:34 - MySQL Driver Registered
+2019-11-15 14:52:14 INFO  MySQL:42 - Successfully connected to MySQL database
+2019-11-15 14:52:14 INFO  MySQL:34 - MySQL Driver Registered
+2019-11-15 14:52:14 INFO  MySQL:42 - Successfully connected to MySQL database
+2019-11-15 14:52:14 INFO  MySQL:34 - MySQL Driver Registered
+2019-11-15 14:52:14 INFO  MySQL:42 - Successfully connected to MySQL database
+2019-11-15 14:52:14 INFO  MySQL:34 - MySQL Driver Registered
+2019-11-15 14:52:14 INFO  MySQL:42 - Successfully connected to MySQL database
+2019-11-15 14:52:14 INFO  MySQL:34 - MySQL Driver Registered
+2019-11-15 14:52:14 INFO  MySQL:42 - Successfully connected to MySQL database
+2019-11-15 14:52:14 INFO  MySQL:34 - MySQL Driver Registered
+2019-11-15 14:52:14 INFO  MySQL:42 - Successfully connected to MySQL database
+2019-11-15 14:52:14 INFO  MySQL:34 - MySQL Driver Registered
+2019-11-15 14:52:14 INFO  MySQL:42 - Successfully connected to MySQL database
+2019-11-15 14:52:14 INFO  MySQL:34 - MySQL Driver Registered
+2019-11-15 14:52:14 INFO  MySQL:42 - Successfully connected to MySQL database
+2019-11-15 14:52:14 INFO  MySQL:34 - MySQL Driver Registered
+2019-11-15 14:52:14 INFO  MySQL:42 - Successfully connected to MySQL database
+2019-11-15 14:52:14 INFO  MySQL:34 - MySQL Driver Registered
+2019-11-15 14:52:14 INFO  MySQL:42 - Successfully connected to MySQL database
+2019-11-15 14:52:38 INFO  MySQL:34 - MySQL Driver Registered
+2019-11-15 14:52:38 INFO  MySQL:42 - Successfully connected to MySQL database
+2019-11-15 14:52:38 INFO  Main:38 - New Person Record Inserted. ID = 10
+2019-11-15 15:19:19 INFO  MySQL:34 - MySQL Driver Registered
+2019-11-15 15:19:20 INFO  MySQL:42 - Successfully connected to MySQL database
+2019-11-15 15:19:20 INFO  MySQL:34 - MySQL Driver Registered
+2019-11-15 15:19:20 INFO  MySQL:42 - Successfully connected to MySQL database
+2019-11-15 15:31:52 INFO  MySQL:34 - MySQL Driver Registered
+2019-11-15 15:31:53 INFO  MySQL:42 - Successfully connected to MySQL database
+2019-11-15 15:31:53 INFO  MySQL:34 - MySQL Driver Registered
+2019-11-15 15:31:53 INFO  MySQL:42 - Successfully connected to MySQL database
+2019-11-15 15:42:26 INFO  MySQL:34 - MySQL Driver Registered
+2019-11-15 15:42:28 INFO  MySQL:42 - Successfully connected to MySQL database
+2019-11-15 15:42:28 INFO  MySQL:34 - MySQL Driver Registered
+2019-11-15 15:42:28 INFO  MySQL:42 - Successfully connected to MySQL database
+2019-11-15 15:48:08 INFO  MySQL:34 - MySQL Driver Registered
+2019-11-15 15:48:09 INFO  MySQL:42 - Successfully connected to MySQL database
+2019-11-15 15:48:09 ERROR MySQL:31 - java.sql.SQLException: Column Index out of range, 4 > 3. 
+2019-11-15 15:54:14 INFO  MySQL:34 - MySQL Driver Registered
+2019-11-15 15:54:16 INFO  MySQL:42 - Successfully connected to MySQL database
+2019-11-15 15:54:16 ERROR MySQL:31 - java.sql.SQLException: Column Index out of range, 4 > 3. 
+2019-11-15 15:54:35 INFO  MySQL:34 - MySQL Driver Registered
+2019-11-15 15:54:37 INFO  MySQL:42 - Successfully connected to MySQL database
+2019-11-15 15:54:37 ERROR MySQL:31 - java.sql.SQLException: Column Index out of range, 4 > 3. 
+2019-11-18 08:23:25 INFO  MySQL:34 - MySQL Driver Registered
+2019-11-18 08:23:25 INFO  MySQL:42 - Successfully connected to MySQL database
+2019-11-18 08:23:25 ERROR MySQL:31 - java.sql.SQLException: Column Index out of range, 4 > 3. 
+2019-11-18 08:32:58 INFO  MySQL:34 - MySQL Driver Registered
+2019-11-18 08:32:59 INFO  MySQL:42 - Successfully connected to MySQL database
+2019-11-18 08:33:00 ERROR MySQL:31 - java.sql.SQLException: Column Index out of range, 4 > 3. 
+2019-11-18 08:34:05 INFO  MySQL:34 - MySQL Driver Registered
+2019-11-18 08:34:07 INFO  MySQL:42 - Successfully connected to MySQL database
+2019-11-18 08:34:08 ERROR MySQL:31 - java.sql.SQLException: Column Index out of range, 4 > 3. 
+2019-11-18 08:51:44 INFO  MySQL:34 - MySQL Driver Registered
+2019-11-18 08:51:45 INFO  MySQL:42 - Successfully connected to MySQL database
+2019-11-18 08:51:45 ERROR MySQL:31 - java.sql.SQLException: Column Index out of range, 4 > 3. 
+2019-11-18 08:53:15 INFO  MySQL:34 - MySQL Driver Registered
+2019-11-18 08:53:16 INFO  MySQL:42 - Successfully connected to MySQL database
+2019-11-18 08:53:16 ERROR MySQL:31 - java.sql.SQLException: Column Index out of range, 4 > 3. 
+2019-11-18 09:06:19 INFO  MySQL:34 - MySQL Driver Registered
+2019-11-18 09:06:21 INFO  MySQL:42 - Successfully connected to MySQL database
+2019-11-18 09:06:21 ERROR MySQL:31 - java.sql.SQLException: Column Index out of range, 4 > 3. 
+2019-11-18 09:09:48 INFO  MySQL:34 - MySQL Driver Registered
+2019-11-18 09:09:50 INFO  MySQL:42 - Successfully connected to MySQL database
+2019-11-18 09:12:59 ERROR MySQL:31 - java.sql.SQLException: Column Index out of range, 4 > 3. 
+2019-11-18 09:13:02 INFO  MySQL:34 - MySQL Driver Registered
+2019-11-18 09:13:03 INFO  MySQL:42 - Successfully connected to MySQL database
+2019-11-18 09:13:03 ERROR MySQL:31 - java.sql.SQLException: Column Index out of range, 4 > 3. 
+2019-11-18 09:36:13 INFO  MySQL:34 - MySQL Driver Registered
+2019-11-18 09:36:13 INFO  MySQL:42 - Successfully connected to MySQL database
+2019-11-18 09:36:13 ERROR MySQL:31 - java.sql.SQLException: Column Index out of range, 4 > 3. 
+2019-11-18 09:47:43 INFO  MySQL:34 - MySQL Driver Registered
+2019-11-18 09:47:43 INFO  MySQL:42 - Successfully connected to MySQL database
+2019-11-18 09:47:43 INFO  MySQL:34 - MySQL Driver Registered
+2019-11-18 09:47:43 INFO  MySQL:42 - Successfully connected to MySQL database
+2019-11-18 09:47:43 ERROR MySQL:109 - java.sql.SQLException: Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (big5_chinese_ci,IMPLICIT) for operation 'ifnull'
+2019-11-18 09:47:43 INFO  Main:37 - Person Update Failed
+2019-11-18 09:59:17 INFO  MySQL:34 - MySQL Driver Registered
+2019-11-18 09:59:17 INFO  MySQL:42 - Successfully connected to MySQL database
+2019-11-18 09:59:18 INFO  MySQL:34 - MySQL Driver Registered
+2019-11-18 09:59:18 INFO  MySQL:42 - Successfully connected to MySQL database
+2019-11-18 09:59:18 ERROR MySQL:109 - java.sql.SQLException: Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (big5_chinese_ci,IMPLICIT) for operation 'ifnull'
+2019-11-18 09:59:18 INFO  Main:37 - Person Update Failed
+2019-11-18 10:06:14 INFO  MySQL:34 - MySQL Driver Registered
+2019-11-18 10:06:14 INFO  MySQL:42 - Successfully connected to MySQL database
+2019-11-18 10:06:14 INFO  MySQL:34 - MySQL Driver Registered
+2019-11-18 10:06:14 INFO  MySQL:42 - Successfully connected to MySQL database
+2019-11-18 10:06:14 INFO  Main:34 - Person Updated Successfully
+2019-11-18 10:24:09 INFO  MySQL:34 - MySQL Driver Registered
+2019-11-18 10:24:09 INFO  MySQL:42 - Successfully connected to MySQL database
+2019-11-18 11:57:35 INFO  MySQL:34 - MySQL Driver Registered
+2019-11-18 11:57:36 INFO  MySQL:42 - Successfully connected to MySQL database
+2019-11-18 11:57:36 ERROR MySQL:59 - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '{10,0,'throwaway765@gmail.com',2,null()' at line 1
+2019-11-18 11:57:36 INFO  Main:38 - New email record inserted. ID = 0
+2019-11-18 12:41:26 INFO  MySQL:34 - MySQL Driver Registered
+2019-11-18 12:41:26 INFO  MySQL:42 - Successfully connected to MySQL database
+2019-11-18 12:41:27 ERROR MySQL:59 - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '{10,0,'throwaway765@gmail.com',2,2()' at line 1
+2019-11-18 12:41:27 INFO  Main:38 - New email record inserted. ID = 0
+2019-11-18 12:44:28 INFO  MySQL:34 - MySQL Driver Registered
+2019-11-18 12:44:28 INFO  MySQL:42 - Successfully connected to MySQL database
+2019-11-18 12:44:28 ERROR MySQL:59 - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '{10,0,'throwaway765@gmail.com',2,2()' at line 1
+2019-11-18 12:44:28 INFO  Main:38 - New email record inserted. ID = 0
+2019-11-18 12:46:32 INFO  MySQL:34 - MySQL Driver Registered
+2019-11-18 12:46:33 INFO  MySQL:42 - Successfully connected to MySQL database
+2019-11-18 12:46:33 ERROR MySQL:59 - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '{10,0,'throwaway765@gmail.com',2,6()' at line 1
+2019-11-18 12:46:33 INFO  Main:38 - New email record inserted. ID = 0
+2019-11-18 12:47:24 INFO  MySQL:34 - MySQL Driver Registered
+2019-11-18 12:47:24 INFO  MySQL:42 - Successfully connected to MySQL database
+2019-11-18 12:47:25 ERROR MySQL:59 - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '{10,0,'throwaway765@gmail.com',2,10()' at line 1
+2019-11-18 12:47:25 INFO  Main:38 - New email record inserted. ID = 0
+2019-11-18 12:53:34 INFO  MySQL:34 - MySQL Driver Registered
+2019-11-18 12:53:34 INFO  MySQL:42 - Successfully connected to MySQL database
+2019-11-18 12:53:34 ERROR MySQL:59 - java.sql.SQLException: No value specified for parameter 5
+2019-11-18 12:53:34 INFO  Main:38 - New email record inserted. ID = 0
+2019-11-18 12:56:40 INFO  MySQL:34 - MySQL Driver Registered
+2019-11-18 12:56:41 INFO  MySQL:42 - Successfully connected to MySQL database
+2019-11-18 12:56:41 ERROR MySQL:59 - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '{10,0,'throwaway765@gmail.com',2,2()' at line 1
+2019-11-18 12:56:41 INFO  Main:38 - New email record inserted. ID = 0
+2019-11-18 13:07:56 INFO  MySQL:34 - MySQL Driver Registered
+2019-11-18 13:07:56 INFO  MySQL:42 - Successfully connected to MySQL database
+2019-11-18 13:07:56 ERROR MySQL:59 - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '{10,0,'throwaway765@gmail.com',2,1()' at line 1
+2019-11-18 13:07:56 INFO  Main:38 - New email record inserted. ID = 0
+2019-11-18 13:12:52 INFO  MySQL:34 - MySQL Driver Registered
+2019-11-18 13:12:53 INFO  MySQL:42 - Successfully connected to MySQL database
+2019-11-18 13:12:53 ERROR MySQL:59 - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '{10,0,'throwaway765@gmail.com',2,1()' at line 1
+2019-11-18 13:12:53 INFO  Main:38 - New email record inserted. ID = 0
+2019-11-18 13:14:25 INFO  MySQL:34 - MySQL Driver Registered
+2019-11-18 13:14:25 INFO  MySQL:42 - Successfully connected to MySQL database
+2019-11-18 13:14:25 INFO  Main:38 - New email record inserted. ID = 10
+2019-11-18 14:00:20 INFO  MySQL:34 - MySQL Driver Registered
+2019-11-18 14:00:21 INFO  MySQL:42 - Successfully connected to MySQL database
+2019-11-18 14:00:21 INFO  Main:37 - New email record inserted. ID = 11
+2019-11-18 14:00:21 INFO  MySQL:34 - MySQL Driver Registered
+2019-11-18 14:00:21 INFO  MySQL:42 - Successfully connected to MySQL database
+2019-11-18 14:05:05 INFO  MySQL:34 - MySQL Driver Registered
+2019-11-18 14:05:06 INFO  MySQL:42 - Successfully connected to MySQL database
+2019-11-18 14:06:39 INFO  MySQL:34 - MySQL Driver Registered
+2019-11-18 14:06:40 INFO  MySQL:42 - Successfully connected to MySQL database
+2019-11-18 14:06:40 INFO  MySQL:34 - MySQL Driver Registered
+2019-11-18 14:06:40 INFO  MySQL:42 - Successfully connected to MySQL database
+2019-11-18 14:06:40 ERROR MySQL:100 - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'vEmailId' in 'where clause'
+2019-11-18 14:06:40 INFO  Main:46 - email not updated try again
+2019-11-18 14:16:42 INFO  MySQL:34 - MySQL Driver Registered
+2019-11-18 14:16:42 INFO  MySQL:42 - Successfully connected to MySQL database
+2019-11-18 14:16:42 INFO  MySQL:34 - MySQL Driver Registered
+2019-11-18 14:16:42 INFO  MySQL:42 - Successfully connected to MySQL database
+2019-11-18 14:16:42 ERROR MySQL:100 - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`db2`.`Email`, CONSTRAINT `Email_ibfk_1` FOREIGN KEY (`EmployeeId`) REFERENCES `Employee` (`EmployeeId`))
+2019-11-18 14:16:42 INFO  Main:46 - email not updated try again
+2019-11-18 15:02:30 INFO  MySQL:34 - MySQL Driver Registered
+2019-11-18 15:02:31 INFO  MySQL:42 - Successfully connected to MySQL database
+2019-11-18 15:02:31 INFO  MySQL:34 - MySQL Driver Registered
+2019-11-18 15:02:31 INFO  MySQL:42 - Successfully connected to MySQL database
+2019-11-18 15:02:31 INFO  Main:46 - EMAIL UPDATED
+2019-11-18 15:03:50 INFO  MySQL:34 - MySQL Driver Registered
+2019-11-18 15:03:51 INFO  MySQL:42 - Successfully connected to MySQL database
+2019-11-18 15:03:51 INFO  MySQL:34 - MySQL Driver Registered
+2019-11-18 15:03:51 INFO  MySQL:42 - Successfully connected to MySQL database
+2019-11-18 15:03:51 INFO  Main:46 - EMAIL UPDATED
+2019-11-18 15:04:25 INFO  MySQL:34 - MySQL Driver Registered
+2019-11-18 15:04:26 INFO  MySQL:42 - Successfully connected to MySQL database
+2019-11-18 15:04:26 INFO  MySQL:34 - MySQL Driver Registered
+2019-11-18 15:04:26 INFO  MySQL:42 - Successfully connected to MySQL database
+2019-11-18 15:04:26 INFO  Main:46 - EMAIL UPDATED
+2019-11-18 15:20:04 INFO  MySQL:34 - MySQL Driver Registered
+2019-11-18 15:20:05 INFO  MySQL:42 - Successfully connected to MySQL database
+2019-11-18 15:20:05 INFO  Main:56 - You will have to try harder than that!
+2019-11-18 15:23:44 INFO  MySQL:34 - MySQL Driver Registered
+2019-11-18 15:23:44 INFO  MySQL:42 - Successfully connected to MySQL database
+2019-11-18 15:23:44 INFO  Main:56 - You will have to try harder than that!
+2019-11-18 15:30:06 INFO  MySQL:34 - MySQL Driver Registered
+2019-11-18 15:30:08 INFO  MySQL:42 - Successfully connected to MySQL database
+2019-11-18 15:31:43 INFO  Main:56 - You will have to try harder than that!
+2019-11-18 15:32:11 INFO  MySQL:34 - MySQL Driver Registered
+2019-11-18 15:32:13 INFO  MySQL:42 - Successfully connected to MySQL database
+2019-11-18 15:34:50 INFO  Main:56 - You will have to try harder than that!
+2019-11-18 15:39:36 INFO  MySQL:34 - MySQL Driver Registered
+2019-11-18 15:39:36 INFO  MySQL:42 - Successfully connected to MySQL database
+2019-11-18 15:39:37 INFO  Main:53 - EMAIL DELETED
+2019-11-19 07:28:31 INFO  MySQL:34 - MySQL Driver Registered
+2019-11-19 07:28:32 INFO  MySQL:42 - Successfully connected to MySQL database
+2019-11-19 07:28:32 INFO  Main:61 - Email Id is com.astontech.bo.Email@22a67b4
+2019-11-19 07:30:10 INFO  MySQL:34 - MySQL Driver Registered
+2019-11-19 07:30:10 INFO  MySQL:42 - Successfully connected to MySQL database
+2019-11-19 08:05:58 INFO  MySQL:34 - MySQL Driver Registered
+2019-11-19 08:05:59 INFO  MySQL:42 - Successfully connected to MySQL database
+2019-11-19 08:08:43 INFO  MySQL:34 - MySQL Driver Registered
+2019-11-19 08:08:44 INFO  MySQL:42 - Successfully connected to MySQL database
+2019-11-19 08:08:44 INFO  MySQL:34 - MySQL Driver Registered
+2019-11-19 08:08:44 INFO  MySQL:42 - Successfully connected to MySQL database
+2019-11-19 08:08:44 INFO  Main:61 - Employee is com.astontech.bo.Employee@51cdd8a
+2019-11-19 08:19:31 INFO  MySQL:34 - MySQL Driver Registered
+2019-11-19 08:19:32 INFO  MySQL:42 - Successfully connected to MySQL database
+2019-11-19 08:19:32 INFO  MySQL:34 - MySQL Driver Registered
+2019-11-19 08:19:32 INFO  MySQL:42 - Successfully connected to MySQL database
+2019-11-19 08:19:32 INFO  Main:61 - Employee is Captain Falcon ,2000-02-01
+2019-11-19 09:07:28 INFO  MySQL:34 - MySQL Driver Registered
+2019-11-19 09:07:29 INFO  MySQL:42 - Successfully connected to MySQL database
+2019-11-19 09:07:29 ERROR MySQL:81 - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '{call ExecEmployee(10,0,'2019-11-19','2019-11-19')' at line 1
+2019-11-19 09:13:00 INFO  MySQL:34 - MySQL Driver Registered
+2019-11-19 09:13:01 INFO  MySQL:42 - Successfully connected to MySQL database
+2019-11-19 09:13:01 ERROR MySQL:81 - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '{call ExecEmployee(10,0,'2019-11-19','2019-11-19')' at line 1
+2019-11-19 10:42:22 INFO  MySQL:34 - MySQL Driver Registered
+2019-11-19 10:42:23 INFO  MySQL:42 - Successfully connected to MySQL database
+2019-11-19 10:42:23 ERROR MySQL:82 - java.sql.SQLException: Parameter index out of range (5 > number of parameters, which is 4).
+2019-11-19 10:43:03 INFO  MySQL:34 - MySQL Driver Registered
+2019-11-19 10:43:04 INFO  MySQL:42 - Successfully connected to MySQL database
+2019-11-19 10:43:04 ERROR MySQL:82 - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '{call ExecEmployee(10,0,'2019-11-19','2019-11-19',7)' at line 1
+2019-11-19 10:47:15 INFO  MySQL:34 - MySQL Driver Registered
+2019-11-19 10:47:16 INFO  MySQL:42 - Successfully connected to MySQL database
+2019-11-19 11:00:52 INFO  MySQL:34 - MySQL Driver Registered
+2019-11-19 11:00:53 INFO  MySQL:42 - Successfully connected to MySQL database
+2019-11-19 11:00:53 INFO  Main:77 - He'll be back
+2019-11-19 11:01:38 INFO  MySQL:34 - MySQL Driver Registered
+2019-11-19 11:01:39 INFO  MySQL:42 - Successfully connected to MySQL database
+2019-11-19 11:01:39 INFO  Main:74 - EMPLOYEE TERMINATED
+2019-11-19 11:13:32 INFO  MySQL:34 - MySQL Driver Registered
+2019-11-19 11:13:32 INFO  MySQL:42 - Successfully connected to MySQL database
+2019-11-19 11:14:01 INFO  MySQL:34 - MySQL Driver Registered
+2019-11-19 11:14:01 INFO  MySQL:42 - Successfully connected to MySQL database
+2019-11-19 11:14:01 INFO  Main:84 - Phone is 1234555
+2019-11-19 12:37:52 INFO  MySQL:34 - MySQL Driver Registered
+2019-11-19 12:37:53 INFO  MySQL:42 - Successfully connected to MySQL database
+2019-11-19 12:37:53 INFO  Main:94 - PHONE RECORD INSERTED SUCCESFULLY
+2019-11-19 13:02:33 INFO  MySQL:34 - MySQL Driver Registered
+2019-11-19 13:02:34 INFO  MySQL:42 - Successfully connected to MySQL database
+2019-11-19 13:02:34 INFO  Main:104 - 1UPDATED SUCCESSFULLY
+2019-11-19 13:09:04 INFO  MySQL:34 - MySQL Driver Registered
+2019-11-19 13:09:05 INFO  MySQL:42 - Successfully connected to MySQL database
+2019-11-19 13:09:05 ERROR MySQL:130 - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`db2`.`Phone`, CONSTRAINT `Phone_ibfk_1` FOREIGN KEY (`EntityTypeId`) REFERENCES `EntityType` (`EntityTypeId`))
+2019-11-19 13:09:05 INFO  Main:113 - you missed
+2019-11-19 13:13:12 INFO  MySQL:34 - MySQL Driver Registered
+2019-11-19 13:13:13 INFO  MySQL:42 - Successfully connected to MySQL database
+2019-11-19 13:13:13 INFO  Main:110 - PHONE RECORD TERMINATED, GOODBYE
+2019-11-20 08:52:21 INFO  MySQL:34 - MySQL Driver Registered
+2019-11-20 08:52:22 INFO  MySQL:42 - Successfully connected to MySQL database
+2019-11-20 08:52:22 ERROR MySQL:80 - java.sql.SQLException: No value specified for parameter 10
+2019-11-20 08:52:22 INFO  Main:133 - VEHICLE RECORD INSERTED
+2019-11-20 09:05:56 INFO  MySQL:34 - MySQL Driver Registered
+2019-11-20 09:05:56 INFO  MySQL:42 - Successfully connected to MySQL database
+2019-11-20 09:05:57 ERROR MySQL:81 - java.sql.SQLException: Data truncated for column 'Year' at row 1
+2019-11-20 09:05:57 INFO  Main:133 - VEHICLE RECORD INSERTED
+2019-11-20 09:08:20 INFO  MySQL:34 - MySQL Driver Registered
+2019-11-20 09:08:20 INFO  MySQL:42 - Successfully connected to MySQL database
+2019-11-20 09:08:20 ERROR MySQL:81 - java.sql.SQLException: Data truncated for column 'Year' at row 1
+2019-11-20 09:08:20 INFO  Main:133 - VEHICLE RECORD INSERTED
+2019-11-20 09:10:43 INFO  MySQL:34 - MySQL Driver Registered
+2019-11-20 09:10:44 INFO  MySQL:42 - Successfully connected to MySQL database
+2019-11-20 09:10:44 ERROR MySQL:81 - java.sql.SQLException: Data truncated for column 'Year' at row 1
+2019-11-20 09:10:44 INFO  Main:133 - VEHICLE RECORD INSERTED
+2019-11-20 13:10:18 INFO  MySQL:34 - MySQL Driver Registered
+2019-11-20 13:10:19 INFO  MySQL:42 - Successfully connected to MySQL database
+2019-11-20 13:10:19 INFO  Main:144 - DID IT WORK?
+2019-11-20 13:14:38 INFO  MySQL:34 - MySQL Driver Registered
+2019-11-20 13:14:39 INFO  MySQL:42 - Successfully connected to MySQL database
+2019-11-20 13:14:39 INFO  Main:144 - DID IT WORK?
+2019-11-20 13:14:39 INFO  MySQL:34 - MySQL Driver Registered
+2019-11-20 13:14:39 INFO  MySQL:42 - Successfully connected to MySQL database
+2019-11-20 13:14:39 ERROR MySQL:103 - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'a.VehicleMake' in 'where clause'
+2019-11-20 13:14:39 INFO  Main:150 - whoops
+2019-11-20 13:16:57 INFO  MySQL:34 - MySQL Driver Registered
+2019-11-20 13:16:58 INFO  MySQL:42 - Successfully connected to MySQL database
+2019-11-20 13:16:58 INFO  Main:150 - whoops
+2019-11-20 13:18:21 INFO  MySQL:34 - MySQL Driver Registered
+2019-11-20 13:18:22 INFO  MySQL:42 - Successfully connected to MySQL database
+2019-11-20 13:18:22 INFO  Main:150 - whoops
+2019-11-20 13:20:39 INFO  MySQL:34 - MySQL Driver Registered
+2019-11-20 13:20:40 INFO  MySQL:42 - Successfully connected to MySQL database
+2019-11-20 13:20:40 INFO  Main:150 - whoops
+2019-11-20 13:27:39 INFO  MySQL:34 - MySQL Driver Registered
+2019-11-20 13:27:40 INFO  MySQL:42 - Successfully connected to MySQL database
+2019-11-20 13:27:40 INFO  Main:147 - RECORD UPDATED
+2019-11-20 13:33:09 INFO  MySQL:34 - MySQL Driver Registered
+2019-11-20 13:33:09 INFO  MySQL:42 - Successfully connected to MySQL database
+2019-11-20 13:33:09 INFO  Main:154 - VEHICLE DELETED
+2019-11-20 13:36:00 INFO  MySQL:34 - MySQL Driver Registered
+2019-11-20 13:36:01 INFO  MySQL:42 - Successfully connected to MySQL database
+2019-11-20 13:36:01 ERROR MySQL:126 - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'VehicleMake' in 'where clause'
+2019-11-20 13:36:01 INFO  Main:157 - TOO WEAK TO WEAK!
+2019-11-20 13:37:07 INFO  MySQL:34 - MySQL Driver Registered
+2019-11-20 13:37:07 INFO  MySQL:42 - Successfully connected to MySQL database
+2019-11-20 13:37:07 ERROR MySQL:126 - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'a.VehicleMake' in 'where clause'
+2019-11-20 13:37:07 INFO  Main:157 - TOO WEAK TO WEAK!
+2019-11-20 13:37:42 INFO  MySQL:34 - MySQL Driver Registered
+2019-11-20 13:37:42 INFO  MySQL:42 - Successfully connected to MySQL database
+2019-11-20 13:37:43 ERROR MySQL:126 - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'a.VehicleMakeId' in 'where clause'
+2019-11-20 13:37:43 INFO  Main:157 - TOO WEAK TO WEAK!
+2019-11-20 13:38:03 INFO  MySQL:34 - MySQL Driver Registered
+2019-11-20 13:38:03 INFO  MySQL:42 - Successfully connected to MySQL database
+2019-11-20 13:38:03 ERROR MySQL:126 - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`db2`.`VehicleModel`, CONSTRAINT `VehicleModel_ibfk_1` FOREIGN KEY (`VehicleMakeId`) REFERENCES `VehicleMake` (`VehicleMakeId`))
+2019-11-20 13:38:03 INFO  Main:157 - TOO WEAK TO WEAK!
+2019-11-20 13:50:28 INFO  MySQL:34 - MySQL Driver Registered
+2019-11-20 13:50:29 INFO  MySQL:42 - Successfully connected to MySQL database
+2019-11-20 13:50:29 INFO  Main:154 - VEHICLE DELETED
+2019-11-20 13:51:24 INFO  MySQL:34 - MySQL Driver Registered
+2019-11-20 13:51:24 INFO  MySQL:42 - Successfully connected to MySQL database
+2019-11-20 13:51:24 INFO  Main:154 - VEHICLE DELETED
+2019-11-20 14:43:41 INFO  MySQL:34 - MySQL Driver Registered
+2019-11-20 14:43:42 INFO  MySQL:42 - Successfully connected to MySQL database
+2019-11-20 14:44:36 INFO  MySQL:34 - MySQL Driver Registered
+2019-11-20 14:44:37 INFO  MySQL:42 - Successfully connected to MySQL database
+2019-11-20 14:47:56 INFO  MySQL:34 - MySQL Driver Registered
+2019-11-20 14:47:57 INFO  MySQL:42 - Successfully connected to MySQL database
+2019-11-20 15:01:47 INFO  MySQL:34 - MySQL Driver Registered
+2019-11-20 15:01:48 INFO  MySQL:42 - Successfully connected to MySQL database
+2019-11-20 15:01:48 ERROR MySQL:58 - java.sql.SQLException: Parameter index out of range (5 > number of parameters, which is 4).
+2019-11-20 15:01:48 INFO  Main:171 - DID IT WORK?????????
+2019-11-20 15:02:40 INFO  MySQL:34 - MySQL Driver Registered
+2019-11-20 15:02:41 INFO  MySQL:42 - Successfully connected to MySQL database
+2019-11-20 15:02:41 INFO  Main:171 - DID IT WORK?????????
+2019-11-20 15:03:14 INFO  MySQL:34 - MySQL Driver Registered
+2019-11-20 15:03:14 INFO  MySQL:42 - Successfully connected to MySQL database
+2019-11-20 15:03:15 INFO  Main:171 - DID IT WORK?????????
+2019-11-20 15:04:04 INFO  MySQL:34 - MySQL Driver Registered
+2019-11-20 15:04:05 INFO  MySQL:42 - Successfully connected to MySQL database
+2019-11-20 15:04:05 INFO  Main:172 - DID IT WORK?????????
+2019-11-20 15:10:43 INFO  Main:176 - you fool. you absolute creting
+2019-11-20 15:14:34 INFO  Main:176 - you fool. you absolute cretin
+2019-11-20 15:20:31 INFO  MySQL:34 - MySQL Driver Registered
+2019-11-20 15:20:32 INFO  MySQL:42 - Successfully connected to MySQL database
+2019-11-20 15:20:32 INFO  Main:173 - YOU DID IT HUGE SUCCESS
+2019-11-20 15:31:49 INFO  MySQL:34 - MySQL Driver Registered
+2019-11-20 15:31:50 INFO  MySQL:42 - Successfully connected to MySQL database
+2019-11-20 15:31:50 INFO  Main:180 - VEE HICKLE DELETED
+2019-11-20 15:52:06 INFO  MySQL:34 - MySQL Driver Registered
+2019-11-20 15:52:07 INFO  MySQL:42 - Successfully connected to MySQL database
+2019-11-20 15:52:07 ERROR MySQL:82 - java.sql.SQLException: Data truncated for column 'Year' at row 1
+2019-11-20 15:52:07 INFO  Main:185 - VEHICLE RECORD INSERTED
+2019-11-20 15:58:19 INFO  MySQL:34 - MySQL Driver Registered
+2019-11-20 15:58:19 INFO  MySQL:42 - Successfully connected to MySQL database
+2019-11-20 15:58:19 ERROR MySQL:82 - java.sql.SQLException: Data truncated for column 'Year' at row 1
+2019-11-20 15:58:19 INFO  Main:185 - did it work?
+2019-11-20 16:08:08 INFO  MySQL:34 - MySQL Driver Registered
+2019-11-20 16:08:09 INFO  MySQL:42 - Successfully connected to MySQL database
+2019-11-20 16:08:09 ERROR MySQL:82 - com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'LicensPlate' at row 1
+2019-11-20 16:08:09 INFO  Main:185 - did it work?
+2019-11-20 16:08:38 INFO  MySQL:34 - MySQL Driver Registered
+2019-11-20 16:08:39 INFO  MySQL:42 - Successfully connected to MySQL database
+2019-11-20 16:08:39 ERROR MySQL:82 - java.sql.SQLException: Data truncated for column 'Vin' at row 1
+2019-11-20 16:08:39 INFO  Main:185 - did it work?
+2019-11-20 16:09:34 INFO  MySQL:34 - MySQL Driver Registered
+2019-11-20 16:09:35 INFO  MySQL:42 - Successfully connected to MySQL database
+2019-11-20 16:09:35 ERROR MySQL:82 - java.sql.SQLException: Data truncated for column 'Vin' at row 1
+2019-11-20 16:09:35 INFO  Main:185 - did it work?
+2019-11-20 16:10:53 INFO  MySQL:34 - MySQL Driver Registered
+2019-11-20 16:10:53 INFO  MySQL:42 - Successfully connected to MySQL database
+2019-11-20 16:10:53 ERROR MySQL:82 - java.sql.SQLException: Data truncated for column 'Vin' at row 1
+2019-11-20 16:10:53 INFO  Main:185 - did it work?
+2019-11-20 16:12:44 INFO  MySQL:34 - MySQL Driver Registered
+2019-11-20 16:12:45 INFO  MySQL:42 - Successfully connected to MySQL database
+2019-11-20 16:12:45 INFO  Main:185 - did it work?
+2019-11-20 16:13:22 INFO  MySQL:34 - MySQL Driver Registered
+2019-11-20 16:13:22 INFO  MySQL:42 - Successfully connected to MySQL database
+2019-11-20 16:13:22 INFO  Main:185 - did it work?
+2019-11-20 16:26:58 INFO  MySQL:34 - MySQL Driver Registered
+2019-11-20 16:26:58 INFO  MySQL:42 - Successfully connected to MySQL database
+2019-11-20 16:26:58 INFO  Main:185 - did it work?
+2019-11-21 07:43:35 INFO  MySQL:34 - MySQL Driver Registered
+2019-11-21 07:43:35 INFO  MySQL:42 - Successfully connected to MySQL database
+2019-11-21 07:43:36 INFO  Main:185 - did it work?
+2019-11-21 07:59:21 INFO  MySQL:34 - MySQL Driver Registered
+2019-11-21 07:59:22 INFO  MySQL:42 - Successfully connected to MySQL database
+2019-11-21 08:00:55 INFO  MySQL:34 - MySQL Driver Registered
+2019-11-21 08:00:56 INFO  MySQL:42 - Successfully connected to MySQL database
+2019-11-21 08:02:07 INFO  MySQL:34 - MySQL Driver Registered
+2019-11-21 08:02:08 INFO  MySQL:42 - Successfully connected to MySQL database
+2019-11-21 08:02:08 INFO  Main:185 - did it work?
+2019-11-21 08:02:08 INFO  MySQL:34 - MySQL Driver Registered
+2019-11-21 08:02:08 INFO  MySQL:42 - Successfully connected to MySQL database
+2019-11-21 08:02:08 INFO  Main:192 - TRANSFORM AND ROLL OUT
+2019-11-21 08:06:50 INFO  MySQL:34 - MySQL Driver Registered
+2019-11-21 08:06:50 INFO  MySQL:42 - Successfully connected to MySQL database
+2019-11-21 08:06:51 INFO  Main:192 - TRANSFORM AND ROLL OUT
+2019-11-21 08:08:36 INFO  MySQL:34 - MySQL Driver Registered
+2019-11-21 08:08:36 INFO  MySQL:42 - Successfully connected to MySQL database
+2019-11-21 08:08:37 INFO  Main:185 - did it work?
+2019-11-21 08:15:09 INFO  MySQL:34 - MySQL Driver Registered
+2019-11-21 08:15:10 INFO  MySQL:42 - Successfully connected to MySQL database
+2019-11-21 08:15:10 INFO  Main:185 - did it work?
+2019-11-21 08:16:07 INFO  MySQL:34 - MySQL Driver Registered
+2019-11-21 08:16:08 INFO  MySQL:42 - Successfully connected to MySQL database
+2019-11-21 08:16:08 INFO  Main:185 - did it work?
+2019-11-21 08:21:52 INFO  MySQL:34 - MySQL Driver Registered
+2019-11-21 08:21:53 INFO  MySQL:42 - Successfully connected to MySQL database
+2019-11-21 08:21:53 INFO  Main:185 - did it work?
+2019-11-21 08:21:53 INFO  MySQL:34 - MySQL Driver Registered
+2019-11-21 08:21:53 INFO  MySQL:42 - Successfully connected to MySQL database
+2019-11-21 08:21:53 INFO  Main:199 - VEHICLE DELETED
+2019-11-21 08:58:30 INFO  Main:31 - Simple Name: com.astontech.bo.Employee
+2019-11-21 09:17:15 INFO  Main:33 - Full Name: com.astontech.bo.Employee
+2019-11-21 09:17:15 INFO  Main:34 - Simple Name: Employee
+2019-11-21 09:17:15 INFO  Main:36 - Field: employeeId - Type: int
+2019-11-21 09:17:15 INFO  Main:36 - Field: HireDate - Type: class java.util.Date
+2019-11-21 09:17:15 INFO  Main:36 - Field: TermDate - Type: class java.util.Date
+2019-11-21 09:17:15 INFO  Main:39 - Method: getHireDate
+2019-11-21 09:17:15 INFO  Main:39 - Method: setHireDate
+2019-11-21 09:17:15 INFO  Main:39 - Method: setTermDate
+2019-11-21 09:17:15 INFO  Main:39 - Method: getTermDate
+2019-11-21 09:17:15 INFO  Main:39 - Method: getEmployeeId
+2019-11-21 09:17:15 INFO  Main:39 - Method: setEmployeeId
+2019-11-21 09:18:34 INFO  Main:34 - Full Name: common.helpers.DateHelper
+2019-11-21 09:18:34 INFO  Main:35 - Simple Name: DateHelper
+2019-11-21 09:18:34 INFO  Main:40 - Method: utilDateToSqlDate
+2019-11-21 09:18:34 INFO  Main:40 - Method: sqlDateToUtilDate
