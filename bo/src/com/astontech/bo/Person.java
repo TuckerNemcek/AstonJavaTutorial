@@ -2,12 +2,13 @@ package com.astontech.bo;
 
 import common.helpers.StringHelper;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
 
-public class Person extends BaseBo implements Comparable {
+public class Person extends BaseBo implements Serializable {
     //region PROPERTIES
 
     private int PersonId;
@@ -15,7 +16,7 @@ public class Person extends BaseBo implements Comparable {
     private String MiddleName;
     private String LastName;
     private Date BirthDate;
-    private String SocialSecurityNumber;
+    private transient String SocialSecurityNumber;
 
 
     //endregion
@@ -147,6 +148,8 @@ public class Person extends BaseBo implements Comparable {
     //region CUSTOM METHODS
     //notes:    this will become an extension method.
 
+    private static final long serialVersionUID = 54622233600l;
+
     public String GetFullName() {
         if(StringHelper.isNullOrEmpty(this.FirstName) && StringHelper.isNullOrEmpty(this.LastName))
             return "No name set";
@@ -159,9 +162,9 @@ public class Person extends BaseBo implements Comparable {
         }
     }
 
-    @Override
-    public int compareTo(Object o) {
-        return 0;
+    public String ToString(){
+        return "PersonId= " + this.getPersonId() + " Full Name= " + this.GetFullName() + " DOB=" + this.BirthDate + this.SocialSecurityNumber;
     }
+
     //endregion
 }

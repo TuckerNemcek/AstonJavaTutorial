@@ -11,6 +11,7 @@ import common.helpers.DateHelper;
 import common.helpers.MathHelper;
 import org.apache.log4j.Logger;
 
+import java.io.*;
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
 import java.sql.*;
@@ -23,24 +24,108 @@ public class Main {
     final static Logger logger = Logger.getLogger(Main.class);
 
     public static void main(String[] args) {
-    LessonReflection();
-
+        LessonRecursionComplex(new File("."));
     }
 
-    private static void LessonReflection(){
+    private static void LessonRecursionComplex(File dir){
+        try{
+            File[] files = dir.listFiles();
+            for(File file : files){
+                if(file.isDirectory()){
+                    //notes: recursion happening
+                    logger.info(("directory: " + file.getCanonicalPath()));
+                    LessonRecursionComplex(file);
+                } else {
+                    logger.info("   file: " + file.getCanonicalPath());
+                    }
+                }
+            }  catch (IOException ioEx){
+            logger.info(ioEx);
+        }
+    }
 
-        Class obj = DateHelper.class;
+    private static void LessonRecursion(int recursionCount){
+        logger.info("Recursive Count = " + recursionCount);
+        if(recursionCount > 0)
+            LessonRecursion(recursionCount -1 );
+    }
+    private static void LessonDeserialization(){
+        Person person = null;
+        try{
+            FileInputStream fileIn = new FileInputStream("./ser_person.txt");
+            ObjectInputStream in = new ObjectInputStream(fileIn);
+            person = (Person) in.readObject();
+            in.close();
+            fileIn.close();
 
-        logger.info("Full Name: " + obj.getName());
-        logger.info("Simple Name: " + obj.getSimpleName());
-        for(Field field : obj.getDeclaredFields()){
+        }catch (FileNotFoundException fileEx) {
+            logger.info(fileEx);
+        } catch (IOException ioEx){
+            logger.info(ioEx.toString());
+        } catch (ClassNotFoundException clzEz) {
+            logger.error(clzEz.getMessage());
+        }
+
+        logger.info("Deserialized object: " + person.ToString());
+    }
+    private static void LessonSerialization(){
+        //notes:    get an object from db
+        PersonDAO personDAO = new PersonDAOImpl();
+        Person person = personDAO.getPersonById(1);
+        //serialize to a text file
+        try{
+            FileOutputStream fileOut = new FileOutputStream("./ser_person.txt");
+            ObjectOutputStream out = new ObjectOutputStream(fileOut);
+            out.writeObject(person);
+            out.close();
+            fileOut.close();
+            logger.info("Object serialized and written to file: ./ser_person.text");
+            logger.info("Serialized object: " + person.ToString());
+
+        } catch (IOException ioEx) {
+            logger.info(ioEx.toString());
+        }
+    }
+    private static void LessonBoxUnboxCast(){
+        //notes BOXING = act of converting a value type to a ref type.
+        //      UNBOXING = converting a ref type to a value type
+
+        //notes:    boxing
+        int x = 10;
+        Object o = x;
+        LessonReflectionAndGenerics(o.getClass());
+
+        //notes:    unboxing (this is casting, particularly explicit casting
+        int y = (int) o;
+        logger.info(y);
+
+        //notes:    implicit casting
+        int i = 100;
+        double d = i;
+
+        //you cannot implicitly cast from higher precision to lower precision.
+
+        double db =1.92;
+        // int in = db; this will fail
+
+        //notes:    explicit casting
+        int in = (int) db;
+        logger.info(in);
+
+        // as a general rule put casts into a try catch because they can go wonky
+
+    }
+    private static <T> void LessonReflectionAndGenerics(Class<T> genericClass){
+        logger.info("Full Name: " + genericClass.getName());
+        logger.info("Simple Name: " + genericClass.getSimpleName());
+        for(Field field : genericClass.getDeclaredFields()){
             logger.info("Field: " + field.getName() + " - Type: " + field.getType());
         }
-        for(Method method : obj.getDeclaredMethods()) {
+        for(Method method : genericClass.getDeclaredMethods()) {
             logger.info("Method: " + method.getName());
         }
-    }
 
+    }
     private static void DAOLab2(){
 //        Email email = new Email();
 //        EntityType entityType = new EntityType();
@@ -85,8 +170,8 @@ public class Main {
 //        employee.setPersonId(7);
 //        System.out.println(employee.toString());
 //
-        int id = employeeDAO.insertEmployee(employee);
-        System.out.println("New employee ID is " + id);
+//        int id = employeeDAO.insertEmployee(employee);
+//        System.out.println("New employee ID is " + id);
 
 //        if(employeeDAO.deleteEmployee(102)){
 //            logger.info("EMPLOYEE TERMINATED");
@@ -220,7 +305,6 @@ public class Main {
 //        }
 
     }
-
     private static void LessonDAODelete() {
         PersonDAO personDAO = new PersonDAOImpl();
 

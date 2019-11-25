@@ -18,7 +18,7 @@ public class PersonDAOImpl extends MySQL implements PersonDAO {
         Connect();
         Person person = null;  // non instantiated because if no records returned we dont want to use memory
         try {
-            String sp = "{call ExecEmployee(?,?,?,?,?)}"
+            String sp = "{call GetPerson(?,?)}";
             CallableStatement cStmt = connection.prepareCall(sp);
             cStmt.setInt(1,GET_BY_ID);
             cStmt.setInt(2, personId);

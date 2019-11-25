@@ -1,6 +1,6 @@
 package com.astontech.bo;
 
-public class BaseBo {
+public class  BaseBo {
 
     private int Id;
 
