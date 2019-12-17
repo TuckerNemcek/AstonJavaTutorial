@@ -3,8 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="3475e155-34db-4cc0-8daa-2e3b6219760c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C:\log4j-application.log" beforeDir="false" afterPath="$PROJECT_DIR$/C:\log4j-application.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bo/src/com/astontech/bo/BaseBo.java" beforeDir="false" afterPath="$PROJECT_DIR$/bo/src/com/astontech/bo/BaseBo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bo/src/com/astontech/bo/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/bo/src/com/astontech/bo/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/console/src/com/astontech/console/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/console/src/com/astontech/console/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dao/src/com/astontech/dao/mysql/PersonDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/dao/src/com/astontech/dao/mysql/PersonDAOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/bo/com/astontech/bo/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/bo/com/astontech/bo/Person.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/console/com/astontech/console/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/console/com/astontech/console/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dao/com/astontech/dao/mysql/Procedures.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dao/com/astontech/dao/mysql/Procedures.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,6 +20,20 @@
   </component>
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="ErrorTreeViewConfiguration">
     <option name="hideWarnings" value="true" />
@@ -25,9 +45,13 @@
     <option name="OPEN_IN_BROWSER" value="true" />
     <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/exportToHTML" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="com.astontech.oop" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -35,7 +59,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="TestBranch" />
+        <entry key="$PROJECT_DIR$" value="DAO_LAB_02" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -44,7 +68,9 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1SqOVdK1aLbTuoRRFElwiWug4Ht" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.Annotations" value="false" />
@@ -53,7 +79,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/bo/src/com/astontech/bo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -61,7 +87,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.propCompiler" />
@@ -112,7 +138,16 @@
       <updated>1572287683359</updated>
       <workItem from="1572287698903" duration="23217000" />
       <workItem from="1572377849256" duration="28098000" />
-      <workItem from="1572536912985" duration="83047000" />
+      <workItem from="1572536912985" duration="144583000" />
+      <workItem from="1573511085784" duration="10015000" />
+      <workItem from="1573583359825" duration="11465000" />
+      <workItem from="1573656803711" duration="2769000" />
+      <workItem from="1573660161812" duration="67000" />
+      <workItem from="1573660267506" duration="7000" />
+      <workItem from="1573662358953" duration="44342000" />
+      <workItem from="1573854088874" duration="94132000" />
+      <workItem from="1574432488998" duration="4393000" />
+      <workItem from="1574706904187" duration="8718000" />
     </task>
     <task id="LOCAL-00001" summary="test commit">
       <created>1572976307910</created>
@@ -132,7 +167,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -141,5 +178,12 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test commit" />
     <option name="LAST_COMMIT_MESSAGE" value="test commit" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="myStringArray" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

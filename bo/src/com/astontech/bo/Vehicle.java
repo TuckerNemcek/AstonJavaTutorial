@@ -1,25 +1,27 @@
 package com.astontech.bo;
 
+import com.astontech.bo.interfaces.IFeelings;
+
 import java.time.Year;
 import java.util.Date;
 
-public class Vehicle extends BaseBo {
+public class Vehicle extends BaseBo implements IFeelings, Comparable {
     // PARAMETERS
 
     private int VehicleId;
-    private String year;
+    private Date year;
     private String LicensePlate;
     private String Vin;
     private String Color;
-    private char IsPurchase;
+    private Boolean IsPurchase;
     private int PurchasePrice;
-    private String PurchaseDate;
+    private Date PurchaseDate;
     private VehicleModel vehicleModel;
     private VehicleStatus vehicleStatus;
 
     //CONSTRUCTORS
     public Vehicle(){}
-    public Vehicle(int vehicleId, String year, String licensePlate, String vin, String color, char isPurchase, int purchasePrice, String purchaseDate, VehicleModel vehicleModel) {
+    public Vehicle(int vehicleId, Date year, String licensePlate, String vin, String color, Boolean isPurchase, int purchasePrice, Date purchaseDate, VehicleModel vehicleModel) {
         this.setVehicleId(vehicleId);
         this.setYear(year);
         this.setLicensePlate(licensePlate);
@@ -49,11 +51,11 @@ public class Vehicle extends BaseBo {
         VehicleId = vehicleId;
     }
 
-    public String getYear() {
+    public Date getYear() {
         return year;
     }
 
-    public void setYear(String year) {
+    public void setYear(Date year) {
         this.year = year;
     }
 
@@ -81,11 +83,11 @@ public class Vehicle extends BaseBo {
         Color = color;
     }
 
-    public char getIsPurchase() {
+    public Boolean getIsPurchase() {
         return IsPurchase;
     }
 
-    public void setIsPurchase(char isPurchase) {
+    public void setIsPurchase(Boolean isPurchase) {
         IsPurchase = isPurchase;
     }
 
@@ -97,11 +99,11 @@ public class Vehicle extends BaseBo {
         PurchasePrice = purchasePrice;
     }
 
-    public String getPurchaseDate() {
+    public Date getPurchaseDate() {
         return PurchaseDate;
     }
 
-    public void setPurchaseDate(String purchaseDate) {
+    public void setPurchaseDate(Date purchaseDate) {
         PurchaseDate = purchaseDate;
     }
 
@@ -111,5 +113,51 @@ public class Vehicle extends BaseBo {
 
     public void setVehicleModel(VehicleModel vehicleModel) {
         this.vehicleModel = vehicleModel;
+    }
+
+    @Override
+    public boolean ownerShip() {
+        if(vehicleModel.getVehicleModelName() == "Regal" ||vehicleModel.getVehicleModelName() == "Liberty"){
+            return true;
+        }
+        else return false;
+    }
+
+    @Override
+    public String mood() {
+        if(vehicleModel.getVehicleMake().getVehicleMakeName() == "Buick"){
+            return "Never again";
+        }
+        if(vehicleModel.getVehicleMake().getVehicleMakeName() == "Jeep"){
+            return "Hell yeah";
+        }
+        if(vehicleModel.getVehicleMake().getVehicleMakeName() == "Tesla"){
+            return "Someday";
+        }
+        if(vehicleModel.getVehicleMake().getVehicleMakeName() == "BMW"){
+            return "Eat your pheasant \n Drink your wine\n Your day will come bourgeoisie swine";
+        }
+        else return "meh";
+    }
+
+    @Override
+    public int passion() {
+        if(vehicleModel.getVehicleMake().getVehicleMakeName() == "Buick"){
+            return 8;
+        }
+        if(vehicleModel.getVehicleMake().getVehicleMakeName() == "Jeep"){
+            return 10;
+        }
+        if(vehicleModel.getVehicleMake().getVehicleMakeName() == "Tesla"){
+            return 7;
+        }
+        if(vehicleModel.getVehicleMake().getVehicleMakeName() == "BMW"){
+            return 3;
+        }
+        else return 0;    }
+
+    @Override
+    public int compareTo(Object o) {
+        return 0;
     }
 }
